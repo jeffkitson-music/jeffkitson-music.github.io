@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get your cryptography.</p>
+
+<button onclick="cryptoTest()">Try It</button>
+
+<p id="encrypted"></p>
+<p id="decrypted"></p>
+<p id="bonus"></p>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+function cryptoTest(){
+	var bonusRound = "Lw484fIZ1yfbae85k/tu9v4qCOfiG8dKptY1rokjqc0="
+	// Encrypt
+	var ciphertext = CryptoJS.AES.encrypt('Lorem Ipsum', 'secret key 123').toString();
+	encrypted.innerHTML = "Encrypted: " + ciphertext;
+	// Decrypt
+	var bytes  = CryptoJS.AES.decrypt(ciphertext, 'secret key 123');
+	var originalText = bytes.toString(CryptoJS.enc.Utf8);
+	
+	// And set it...
+	decrypted.innerHTML = "Decrypted: " + originalText;
+	
+	// Bonus Round!
+	//var bonusBytes  = CryptoJS.AES.decrypt(ciphertext, 'lazydog');
+	var bonusText = decrypt(bonusRound, "lazydog","salt");
+	bonus.innerHTML = "BONUS: " + bonusText;
+}
+
+function decrypt(ciphertext,password,salt) {  
+  var data = ciphertext;
+  var iterations = 1000;
+  var bytes = CryptoJS.PBKDF2(password, salt, { keySize: 256, iterations: iterations,hasher: CryptoJS.algo.SHA256 });
+  var iv = CryptoJS.enc.Hex.parse(bytes.toString().slice(0, 32));
+  var key = CryptoJS.enc.Hex.parse(bytes.toString().slice(32, 96));
+  var decryptedWA = CryptoJS.AES.decrypt(data, key, { iv: iv}); // WA is wordarray - required.
+
+  var cipherParams = CryptoJS.lib.CipherParams.create({
+     ciphertext: CryptoJS.enc.Base64.parse(data )
+  });
+  var decryptedFromText = CryptoJS.AES.decrypt(cipherParams, key, { iv: iv});
+  
+  var cleartext = decryptedFromText.toString(CryptoJS.enc.Utf8);
+  
+  // If the decrypted cleartext is an object or an array, parse it. 
+  //jsontf = isJson(cleartext)
+  //if(jsontf){
+    //cleartext = JSON.parse(cleartext)
+  //}
+  return cleartext
+}
+
+</script>
