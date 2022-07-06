@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <body>
 
 <p>Click on the button to copy the text from the text field. Try to paste the text (e.g. ctrl+v) afterwards in a different window, to see the effect.</p>
 
-<input type="text" value="Hello World" id="myInput">
+<input type="text" value="" id="myInput">
 <button onclick="myFunction()">Copy text</button>
 
 <script>
-function myFunction() {
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+//let value = params.some_key; // "some_value"  
+  
+  // Hello 
+  document.getElementsByName("myInput").value = parms.code;
+  
+  function myFunction() {
   /* Get the text field */
   var copyText = document.getElementById("myInput");
 
