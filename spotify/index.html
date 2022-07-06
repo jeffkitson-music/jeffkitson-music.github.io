@@ -9,15 +9,19 @@
 <button onclick="myFunction()">Copy text</button>
 
 <script>
+  document.addEventListener("DOMContentLoaded", function() {
   const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
-  console.log(params)
+  console.log("Hello World!");
+  console.log(params);
 // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
 //let value = params.some_key; // "some_value"  
   
   // Hello 
   document.getElementsByName("myInput").value = params.code;
+  ;
+});
   
   function myFunction() {
   /* Get the text field */
