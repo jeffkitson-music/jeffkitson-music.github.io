@@ -13,12 +13,10 @@
   document.addEventListener("DOMContentLoaded", function() {
     const urlSearchParams = new URLSearchParams(window.location.search);
     const params = Object.fromEntries(urlSearchParams.entries());
-    console.log("Hello World!!");
-    console.log(params);
-    
-    // Hello 
+    //console.log(params);
+   
+    // Set Textbox 
     document.getElementById("myInput").value = params.code;
-    document.getElementById("mySecondInput").value = "YOURMOMGOESTOCOLLEGE";
 });
   
   function myFunction() {
