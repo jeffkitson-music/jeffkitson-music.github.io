@@ -29,7 +29,7 @@ input[type=text] {
 </head>
 <body>
 <center>
-<h1>🎸 Sheet Rock 🎸</h1>
+<h1>🎸 Sheet Rock3 🎸</h1>
 <h2>Spotify Authenication</h2>
 <p id="instructions">Click the button to copy the text</p>
 <input type="text" value="" id="myInput"><br><br>
@@ -38,13 +38,7 @@ input[type=text] {
 </center>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const urlSearchParams = new URLSearchParams(window.location.search);
-    const params = Object.fromEntries(urlSearchParams.entries());
-    //console.log(params);
-   
-    // Set Textbox 
-    var code = params.code
-    document.getElementById("myInput").value = location.host + location.pathname +"?code="+code;
+    document.getElementById("myInput").value = window.location.href;
 });
   
   function myFunction() {
