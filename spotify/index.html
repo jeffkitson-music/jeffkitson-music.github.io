@@ -6,21 +6,19 @@
 <p>Click on the button to copy the text from the text field. Try to paste the text (e.g. ctrl+v) afterwards in a different window, to see the effect.</p>
 
 <input type="text" value="" id="myInput">
+<input type="text" value="" id="mySecondInput">
 <button onclick="myFunction()">Copy text</button>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-  const params = new Proxy(new URLSearchParams(window.location.search), {
-  get: (searchParams, prop) => searchParams.get(prop),
-});
-  console.log("Hello World!");
-  console.log(params);
-// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
-//let value = params.some_key; // "some_value"  
-  
-  // Hello 
-  document.getElementsByName("myInput").value = params.code;
-  ;
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+    console.log("Hello World!!");
+    console.log(params);
+    
+    // Hello 
+    document.getElementsByName("myInput").value = params.code;
+    document.getElementsByName("mySecondInput").value = "YOURMOMGOESTOCOLLEGE";
 });
   
   function myFunction() {
