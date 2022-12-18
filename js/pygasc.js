@@ -1,4 +1,4 @@
-// You will also need:
+// You will also need to import:
 //<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 function encrypt(cleartext,password,salt){
@@ -49,16 +49,16 @@ function isJson(str) {
 }
 
 
-function example(){
+function pygascExample(){
   // cleartext takes strings, objects, or arrays
   var cleartext = "Hello World" 
   var password = "lazydog"
   var salt = "salt"
 
-  Logger.log("Original: "+cleartext)
+  console.log("Original: "+cleartext)
   var ciphertext= encrypt(cleartext,password,salt)
-  Logger.log("Ciphertext: " + ciphertext)
+  console.log("Ciphertext: " + ciphertext)
   
   var clear = decrypt(ciphertext,password,salt)
-  Logger.log("Decrypted from ciphertext: " + clear) // or clear[0] or clear.key, etc...
+  console.log("Decrypted from ciphertext: " + clear) // or clear[0] or clear.key, etc...
 }
