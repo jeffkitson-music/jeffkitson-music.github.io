@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQR</title>
+    <!DOCTYPE html>
+
+<link href='https://fonts.googleapis.com/css?family=Give+You+Glory&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Martel&display=swap' rel='stylesheet'>
+<style>
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+.p1 {
+    background: white;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-family: 'Give You Glory';font-size: 22px;
+}
+
+.p2 {
+    background: white;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-family: 'Martel';font-size: 16px;
+}
+
+body {
+    font-family: 'Give You Glory';font-size: 22px;
+}
+input[type=text] {
+  width: 33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: 'Give You Glory';
+  align: center;
+}
+
+input[type=password] {
+  width: 33%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: 'Give You Glory';
+  align: center;
+}
+
+
+.button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Give You Glory';
+}
+
+</style>
+
+</head>
+<body onload="start()">
+<script src = "https://jeffkitson-music.github.io/js/qr.min.js"></script>
+<script type="text/javascript"></script>
+    <div id = "qrCodeHere" align="center"></div>
+<h1 align="center">QR Code Generator</h1>
+<p id="instructions" align="center">Enter Text:
+    <br>
+<input type="text" value="" id="myInput"><br><br>
+
+<input id="qrbtn" type="button" class="button" value="Generate QR Code" onclick="changeQR()">
+<input id="clearbtn" type="button" class="button" value="Clear" onclick="clearStuff()">
+</p>
+
+<br>
+
+<script>
+function start(){
+    var input = document.getElementById("myInput");
+    input.addEventListener("keypress", function(event) {
+     if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("qrbtn").click();
+     }
+    });
+    };
+</script>
+ <script>
+    //new QRCode(document.getElementById("qrcode"), "Hello World");
+// first param is the div!!
+    var qrcode = new QRCode("qrCodeHere", {
+        text: "Hello World",
+        width: 256,
+        height: 256,
+        colorDark : "#000000",
+        colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.H
+    });
+
+
+ function clearStuff(){
+         console.log("Clear was clicked!");
+         document.getElementById("myInput").value = "";
+         //qrcode.clear(); // clear the code.
+         qrcode.makeCode("Hello World"); // make another code.
+		 return;
+    };
+
+ function changeQR(){
+    var qrText =  document.getElementById("myInput").value;
+    qrcode.clear(); // clear the code.
+    qrcode.makeCode(qrText); // make another code.
+ }
+</script>
+
+
+</body>
+</html>
