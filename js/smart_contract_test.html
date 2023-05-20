@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <p id="demo"></p>
+  <script>
+    async function main() {
+  const web3 = new Web3("https://flare-api.flare.network/ext/C/rpc");
+  //web3.eth.getBalance('0x2828B6b61E1e67Ad6867E4b887631095b76B2037').then(console.log)
+  var r = await getAbi();
+
+  var abi = JSON.parse(r.result);
+
+  let contract = new web3.eth.Contract(abi, "0x9c7A4C83842B29bB4A082b0E689CB9474BD938d0")
+
+  var m = await contract.methods['getCurrentMonth']().call().then(console.log("Called!"));
+  console.log("Drum roll please...")
+  console.log("The current month is...")
+  console.log(m);
+  var text = "yourmom";
+  document.getElementById("demo").innerHTML = '{"current_month":'+m+',"status":'+'"'+text+'"'+'}';
+}
+
+
+
+
+async function getAbi() {
+  var url = "https://flare-explorer.flare.network/api?module=contract&action=getabi&address=0x9c7A4C83842B29bB4A082b0E689CB9474BD938d0";
+  let response = await fetch(url);
+  if (response.status === 200) {
+    console.log("Data here!")
+    let data = await response.json();
+    console.log(data);
+    return data;
+
+  }
+  //console.log(response);
+  //const jsonData = response.json();
+  //return data
+}
+main();
+
+  </script>
+  </body>
+</html>
