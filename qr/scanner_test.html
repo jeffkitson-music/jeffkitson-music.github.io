@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Lookup</title>
+  <style>
+    body {
+      background-color: #BEC6C4;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin: 50px auto;
+      width: 500px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333F48;
+    }
+    input {
+      text-align: center;
+      font-size: 16px;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      outline: none;
+    }
+    .info {
+      margin-top: 20px;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      color: #333F48;
+    }
+    .info h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .info p {
+      margin-bottom: 5px;
+    }
+    .info span {
+      color: #006747;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="reader" width="600px"></div>
+    <h1>Library Lookup</h1>
+    <input type="text" placeholder="Scan Barcode">
+    <div class="info">
+      </div>
+  </div>
+  <script>
+    // Implement your barcode lookup logic here and update the .info element with the data.
+
+    // For example:
+    const input = document.querySelector("input");
+    input.addEventListener("keyup", function(event) {
+      if (event.key === "Enter") {
+        const barcode = input.value;
+        // Make an API call or similar to get info based on barcode
+        fetch("/api/lookup?barcode=" + barcode)
+          .then(response => response.json())
+          .then(data => {
+            // Update the .info element with the returned data
+            const infoElement = document.querySelector(".info");
+            infoElement.innerHTML = "";
+            const title = document.createElement("h2");
+            title.textContent = data.title;
+            infoElement.appendChild(title);
+            const author = document.createElement("p");
+            author.innerHTML = "Author: <span>" + data.author + "</span>";
+            infoElement.appendChild(author);
+            const isbn = document.createElement("p");
+            isbn.innerHTML = "ISBN: <span>" + data.isbn + "</span>";
+            infoElement.appendChild(isbn);
+          });
+      }
+    });
+    function onScanSuccess(decodedText, decodedResult) {
+  // handle the scanned code as you like, for example:
+  console.log(`Code matched = ${decodedText}`, decodedResult);
+}
+
+function onScanFailure(error) {
+  // handle scan failure, usually better to ignore and keep scanning.
+  // for example:
+  console.warn(`Code scan error = ${error}`);
+}
+
+let html5QrcodeScanner = new Html5QrcodeScanner(
+  "reader",
+  { fps: 10, qrbox: {width: 250, height: 250} },
+  /* verbose= */ false);
+html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+  </script>
+</body>
+</html>
