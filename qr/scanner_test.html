@@ -57,7 +57,7 @@
 <body>
   <div class="container">
     <div id="reader" width="600px"></div>
-    <h1>Library Lookup!~@</h1>
+    <h1>Library Lookup!~@!!!!~@@</h1>
     <input type="text" placeholder="Scan Barcode">
     <button type="button" onclick="resetScanner()">Reset Scanner Test</button>
     <div class="info">
@@ -112,10 +112,10 @@ function onScanFailure(error) {
 }
 
 function resetScanner(){
-  let html5QrcodeScanner = new Html5QrcodeScanner(
-  "reader",
-  { fps: 10, qrbox: {width: 250, height: 250} },
-  /* verbose= */ false);
+  //let html5QrcodeScanner = new Html5QrcodeScanner(
+  //"reader",
+  //{ fps: 10, qrbox: {width: 250, height: 250} },
+  ///* verbose= */ false);
 html5QrcodeScanner.render(onScanSuccess, onScanFailure);
 }
 
