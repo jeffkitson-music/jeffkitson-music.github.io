@@ -57,7 +57,7 @@
 <body>
   <div class="container">
     <div id="reader" width="600px"></div>
-    <h1>Library Lookup~~~</h1>
+    <h1>Library Lookup~~~!</h1>
     <input type="text" placeholder="Scan Barcode">
     <div class="info">
       </div>
@@ -90,9 +90,15 @@
       }
     });
     function onScanSuccess(decodedText, decodedResult) {
-      // handle the scanned code as you like, for example:
-      console.log(`Code matched = ${decodedText}`, decodedResult);
-      html5QrcodeScanner.stop()
+       // handle the scanned code as you like
+  console.log(`QR matched = ${qrMessage}`);
+  // Stop scanning
+  html5QrcodeScanner.clear().then(_ => {
+    // the UI should be cleared here      
+  }).catch(error => {
+    // Could not stop scanning for reasons specified in `error`.
+    // This conditions should ideally not happen.
+  });
 }
 
 function onScanFailure(error) {
