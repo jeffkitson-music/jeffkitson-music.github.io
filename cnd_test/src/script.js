@@ -12,13 +12,17 @@ roller.addEventListener("click", () => {
   randomNsection.style.display = "none";
   // Add class for faster spinning
   roller.classList.add("spin-fast");
-  let randomNumber = Math.floor(Math.random() * Numbers.length);
+  let randomNumber = Math.floor(Math.random() * 6) + 1; // plus one ensures no zero...this will need its own function for larger dice, etc. 
+  var sides = document.getElementsByClassName("face")
+  for (let i = 0; i < sides.length; i++) {
+    sides[i].innerHTML = randomNumber.toString();
+  }
   setTimeout(() => {
     // Remove class and re-enable pointer events after 2 seconds
     roller.classList.remove("spin-fast");
     roller.style.pointerEvents = "auto";
     randomNsection.style.display = "block";
-    random_P.innerHTML = Numbers[randomNumber];
+    random_P.innerHTML = randomNumber.toString(); //Numbers[randomNumber];
   }, 2000);
 });
 window.addEventListener("scroll", function () {
