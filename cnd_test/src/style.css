@@ -48,7 +48,7 @@ html{
   border-radius: 4px;
 }
 .hero {
-  background-image: url("../public/images/Lines.png");
+  /*background-image: url("../public/images/Lines.png");*/
   background-size: auto;
   background-position: left top;
   background-repeat: no-repeat;
