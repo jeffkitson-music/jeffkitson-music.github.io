@@ -15,7 +15,13 @@ roller.addEventListener("click", () => {
   let randomNumber = Math.floor(Math.random() * 6) + 1; // plus one ensures no zero...this will need its own function for larger dice, etc. 
   var sides = document.getElementsByClassName("face")
   for (let i = 0; i < sides.length; i++) {
-    sides[i].innerHTML = randomNumber.toString();
+    if(randomNumber == 6 || randomNumber == 9){
+      sides[i].innerHTML = `<u>${randomNumber.toString()}</u>`; // to distinguish between 6 and 9, underline it! 
+    }
+    else {
+      sides[i].innerHTML = randomNumber.toString();  
+    }
+    
   }
   setTimeout(() => {
     // Remove class and re-enable pointer events after 2 seconds
