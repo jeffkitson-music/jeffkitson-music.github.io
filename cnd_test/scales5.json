@@ -1,0 +1,98 @@
+{
+    "note": "This still needs proofreading!!!",
+    "major": {
+        "c": "X:1\nT:C Major (Bb Concert)\nC2 DE FGAB|c2 BA GFED|C8|]\n",
+        "g": "X:1\nT:G Major (F Concert)\nG2 AB C'D'E'^F'|G'2 ^F'E' D'C'BA|G8|]\n",
+        "d": "X:1\nT:D Major (C Concert)\nD2 E^F GAB^C'|D'2, ^C'B AG^FE|D8|]\n",
+        "a": "X:1\nT:A Major (G Concert)\nA2 B^C' de^f^g|A'2 ^g^f ed^cB|A8|]\n",
+        "e": "X:1\nT:E Major (D Concert)\nE2 ^F^G AB^C'^D'|E'2 ^D'^C' BA^G^F|E8|]",
+        "b": "X:1\nT:B Major (A Concert)\nB,2 ^C^D E^F^G^A|B2, ^A^G ^FE^D^C|B,8|]\n",
+        "fsharp": "X:1\nT:F# Major (E Concert)\n^F2 ^G^A B^C'^D'^E'|^F'2 ^E'^D' ^C'B^A^G|^F8|]\n",
+        "gflat": "X:1\nT:Gb Major (E Concert)\n_G2 _A_B _C'_D'_E'F'|_G'2 F'_E' _D'_C'_B_A|_G8|]\n",
+        "csharp": "X:1\nT:C# Major (B Concert)\n^c,2 ^d,^e, ^f,^g,^a,^b,|^C'2, ^b,^a, ^g,^f,^e,^d,|^c,8|]\n",
+        "dflat": "X:1\nT:Db Major (B Concert)\n_D2 _EF _G_A_BC'|_D'2, C'_B _A_GF_E|_D8|]\n",
+        "aflat": "X:1\nT:Ab Major (Gb Concert)\n_A2 _BC' _D'_E'F'G'|_A'2 G'F' _E'_D'c_B|_A8|]\n",
+        "eflat": "X:1\nT:Eb Major (Db Concert)\n_E2 FG _A_BC'D'|_E'2 D'C' _B_AGF|_E8|]\n",
+        "bflat": "X:1\nT:Bb Major (Ab Concert)\n_B,2 CD _EFGA|_B2 AG F_EDC|_B,8|]\n",
+        "f": "X:1\nT:F Major (E Concert)\nF2 GA _BC'D'E'|F'2 E'D' C'_BAG|F8|]\n"
+    },
+    "minor": {
+        "a": {
+            "natural": "X:1\nT:A Natural Minor A2 BC' defg|A'2 gf edcB|A8|]\n",
+            "harmonic": "X:1\nT:A Harmonic Minor\nA2 BC' def^g|A'2 ^gf edcB|A8|]\n",
+            "melodic": "X:1\nT:A Melodic Minor\nA2 BC' de^f^g|A'2 gf edcB|A8|]\n"
+        },
+        "e": {
+            "natural": "X:1\nT:E Natural Minor E2 ^FG ABC'D'|E'2 D'C' BAG^F|E8|]\n",
+            "harmonic": "X:1\nT:E Harmonic Minor\nE2 ^FG ABC'^D'|E'2 ^D'C' BAG^F|E8|]\n",
+            "melodic": "X:1\nT:E Melodic Minor\nE2 ^FG AB^C'^D'|E'2 =D'=C' BAG^F|E8|]\n"
+        },
+        "b": {
+            "natural": "X:1\nT:B Natural Minor B,2 ^CD E^FGA|B2 AG ^FED^C|B,8|]\n",
+            "harmonic": "X:1\nT:B Harmonic Minor\nB,2 ^CD E^FG^A|B2 ^AG ^FED^C|B,8|]\n",
+            "melodic": "X:1\nT:B Melodic Minor\nB,2 ^CD E^F^G^A|B2 AG ^FED^C|B,8|]\n"
+        },
+        "fsharp": {
+            "natural": "X:1\nT:F# Natural Minor ^F2 ^GA B^C'D'E'|^F'2 E'D' ^C'BA^G|^F8|]\n",
+            "harmonic": "X:1\nT:F# Harmonic Minor\n^F2 ^GA B^C'D'^E'|^F'2 ^E'D' ^C'BA^G|^F8|]\n",
+            "melodic": "X:1\nT:F# Melodic Minor\n^F2 ^GA B^C'^D'^E'|^F'2 E'D' ^C'BA^G|^F8|]\n"
+        },
+        "csharp": {
+            "natural": "X:1\nT:C# Natural Minor ^c,2 ^d,e, ^f,^g,a,b,|^C'2 b,a, ^g,^f,e,^d,|^c,8|]\n",
+            "harmonic": "X:1\nT:C# Harmonic Minor\n^c,2 ^d,e, ^f,^g,a,^b,|^C'2 ^b,a, ^g,^f,e,^d,|^c,8|]\n",
+            "melodic": "X:1\nT:^c,2 ^d,e, ^f,^g,^a,^b,|^C'2 b,a, ^g,^f,e,^d,|^c,8|] Harmonic Minor\n^c,2 ^d,e, ^f,^g,^a,^b,|^C'2 b,a, ^g,^f,e,^d,|^c,8|]\n"
+        },
+        "gsharp": {},
+        "dsharp": {},
+        "eflat": {
+            "natural": "X:1\nT:Eb Natural Minor _E2 F_G _A_B_C'_D'|_E'2 _D'_C' _B_A_GF|_E8|]\n",
+            "harmonic": "X:1\nT:Eb Harmonic Minor\n_E2 F_G _A_B_C'=D'|_E'2 =D'_C' _B_A_GF|_E8|]\n",
+            "melodic": "X:1\nT:Eb Melodic Minor\n_E2 F_G _A_B=C'=D'|_E'2 _D'_C' _B_A_GF|_E8|]\n"
+        },
+        "asharp": {},
+        "bflat": {
+            "natural": "X:1\nT:Bb Natural Minor _B,2 C_D _EF_G_A|_B2 _A_G F_E_DC|_B,8|]\n",
+            "harmonic": "X:1\nT:Bb Harmonic Minor\n_B,2 C_D _EF_G=A|_B2 =A_G F_E_DC|_B,8|]\n",
+            "melodic": "X:1\nT:Bb Melodic Minor\n_B,2 C_D _EF=G=A|_B2 _A_G F_E_DC|_B,8|]\n"
+        },
+        "f": {
+            "natural": "X:1\nT:F Natural Minor F2 G_A _BC'_D'_E'|F'2 _E'_D' C'_B_AG|F8|]\n",
+            "harmonic": "X:1\nT:F Harmonic Minor\nF2 G_A _BC'_D'=E'|F'2 =E'_D' C'_B_AG|F8|]\n",
+            "melodic": "X:1\nT:F Melodic Minor\nF2 G_A _BC'=D'=E'|F'2 _E'_D' C'_B_AG|F8|]\n"
+        },
+        "c": {
+            "natural": "X:1\nT:C Natural Minor C2 D_E FG_A_B|c2 _B_A GF_ED|C8|]\n",
+            "harmonic": "X:1\nT:C Harmonic Minor\nC2 D_E FG_A=B|c2 =B_A GF_ED|C8|]\n",
+            "melodic": "X:1\nT:C2 D_E FG=A=B|c2 _B_A GF_ED|C8|] Harmonic Minor\nC2 D_E FG=A=B|c2 _B_A GF_ED|C8|]\n"
+        },
+        "g": {
+            "natural": "X:1\nT:G Natural Minor G2 A_B C'D'_E'=F'|G'2 =F'_E' D'C'_BA|G8|]\n",
+            "harmonic": "X:1\nT:G Harmonic Minor\nG2 A_B C'D'_E'^F'|G'2 ^F'_E' D'C'_BA|G8|]\n",
+            "melodic": "X:1\nT:G2 A_B C'D'=E'^F'|G'2 =F'_E' D'C'_BA|G8|] Harmonic Minor\nG2 A_B C'D'=E'^F'|G'2 =F'_E' D'C'_BA|G8|]\n"
+        },
+        "d": {
+            "natural": "X:1\nT:D Natural Minor D2 EF GA_BC'|D'2 C'_B AGFE|D8|]\n",
+            "harmonic": "X:1\nT:D Harmonic Minor\nD2 EF GA_B^C'|D'2 ^C'_B AGFE|D8|]\n",
+            "melodic": "X:1\nT:D2 EF GA=B^C'|D'2 =C'_B AGFE|D8|] Harmonic Minor\nD2 EF GA=B^C'|D'2 =C'_B AGFE|D8|]\n"
+        }
+    },
+    "does_not_exist": [
+        "gflat",
+        "dflat",
+        "aflat"
+    ],
+    "completed": [
+        "c",
+        "g",
+        "d",
+        "a",
+        "e",
+        "b",
+        "fsharp",
+        "csharp",
+        "eflat",
+        "bflat",
+        "f"
+    ],
+    "chromatic": "X:1\nT:Chromatic Scale 2\nE,F,^F,G, ^G,A,^A,B,|C^CD^D EF^FG|\n^GA^AB C'^C'D'^D'|E'_E'D'_D' C'B_BA|\n_AG_GF E_ED_D|CB,_B,A, _A,G,_G,F, !fermata!E,2|]"
+}
