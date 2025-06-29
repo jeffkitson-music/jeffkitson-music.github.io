@@ -1,0 +1,301 @@
+{
+    "long_tones": ["E,","F,","G,","A,","B,","C","D","E","F","G","A","B","c","d","e","f","g","a","b","c'"],
+    "scales": {
+        "major": [
+            {
+                "key": "C",
+                "name": "C Major",
+                "concert_pitch": "Bb Major",
+                "notation": "C2 DE FGAB|c2 BA GFED|C8|]"
+            },
+            {
+                "key": "G",
+                "name": "G Major",
+                "concert_pitch": "F Major",
+                "notation": "G2 AB cdef|g2 fe dcBA|G8|]"
+            },
+            {
+                "key": "D",
+                "name": "D Major",
+                "concert_pitch": "C Major",
+                "notation": "D2 EF GABc|d2 cB AGFE|D8|]"
+            },
+            {
+                "key": "A",
+                "name": "A Major",
+                "concert_pitch": "G Major",
+                "notation": "A,2 B,C DEFG|A2 GF EDCB,|A,8|]"
+            },
+            {
+                "key": "E",
+                "name": "E Major",
+                "concert_pitch": "D Major",
+                "notation": "E2 FG ABcd|e2 dc BAGF|E8|]"
+            },
+            {
+                "key": "B",
+                "name": "B Major",
+                "concert_pitch": "A Major",
+                "notation": "B,2 CD EFGA|B2 AG FEDC|B,8|]]"
+            },
+            {
+                "key": "F",
+                "name": "F Major",
+                "concert_pitch": "Eb Major",
+                "notation": "F2 GA Bcde|f2 ed cBAG|F8|]"
+            },
+            {
+                "key": "Bb",
+                "name": "Bb Major",
+                "concert_pitch": "Ab Major",
+                "notation": "B,2 CD EFGA|B2 AG FEDC|B,8|]]"
+            },
+            {
+                "key": "Eb",
+                "name": "Eb Major",
+                "concert_pitch": "Db Major",
+                "notation": "E2 FG ABcd|e2 dc BAGF|E8|]"
+            },
+            {
+                "key": "Ab",
+                "name": "Ab Major",
+                "concert_pitch": "Gb Major",
+                "notation": "A,2 B,C DEFG|A2 GF EDCB,|A,8|]"
+            },
+            {
+                "key": "Db",
+                "name": "Db Major",
+                "concert_pitch": "B Major",
+                "notation": "D2 EF GABc|d2 cB AGFE|D8|]"
+            },
+            {
+                "key": "Gb",
+                "name": "Gb Major",
+                "concert_pitch": "E Major",
+                "notation": "G2 AB cdef|g2 fe dcBA|G8|]"
+            }
+        ],
+        "natural_minor": [
+            {
+                "key": "Amin",
+                "name": "A Natural Minor",
+                "concert_pitch": "G Minor",
+                "notation": "A,2 B,C DEFG|A2 GF EDCB,|A,8|]"
+            },
+            {
+                "key": "Emin",
+                "name": "E Natural Minor",
+                "concert_pitch": "D Minor",
+                "notation": "E2 FG ABcd|e2 dc BAGF|E8|]"
+            },
+            {
+                "key": "Bmin",
+                "name": "B Natural Minor",
+                "concert_pitch": "A Minor",
+                "notation": "E2 FG ABcd|e2 dc BAGF|E8|]"
+            },
+            {
+                "key": "F#min",
+                "name": "F# Natural Minor",
+                "concert_pitch": "E Minor",
+                "notation": "F2 GA Bcde|f2 ed cBAG|F8|]"
+            },
+            {
+                "key": "C#min",
+                "name": "C# Natural Minor",
+                "concert_pitch": "B Minor",
+                "notation": "C2 DE FGAB|c2 BA GFED|C8|]"
+            },
+            {
+                "key": "G#min",
+                "name": "G# Natural Minor",
+                "concert_pitch": "F# Minor",
+                "notation": "G2 AB cdef|g2 fe dcBA|G8|]"
+            },
+            {
+                "key": "Dmin",
+                "name": "D Natural Minor",
+                "concert_pitch": "C Minor",
+                "notation": "D2 EF GABc|d2 cB AGFE|D8|]"
+            },
+            {
+                "key": "Gmin",
+                "name": "G Natural Minor",
+                "concert_pitch": "F Minor",
+                "notation": "G2 AB cdef|g2 fe dcBA|G8|]"
+            },
+            {
+                "key": "Cmin",
+                "name": "C Natural Minor",
+                "concert_pitch": "Bb Minor",
+                "notation": "C2 DE FGAB|c2 BA GFED|C8|]"
+            },
+            {
+                "key": "Fmin",
+                "name": "F Natural Minor",
+                "concert_pitch": "Eb Minor",
+                "notation": "F2 GA Bcde|f2 ed cBAG|F8|]"
+            },
+            {
+                "key": "Bbmin",
+                "name": "Bb Natural Minor",
+                "concert_pitch": "Ab Minor",
+                "notation": "B,2 CD EFGA|B2 AG FEDC|B,8|]]"
+            },
+            {
+                "key": "Ebmin",
+                "name": "Eb Natural Minor",
+                "concert_pitch": "Db Minor",
+                "notation": "E2 FG ABcd|e2 dc BAGF|E8|]"
+            }
+        ],
+        "harmonic_minor": [
+            {
+                "key": "Amin",
+                "name": "A Harmonic Minor",
+                "concert_pitch": "G Minor",
+                "notation": "A,2 B,C DEF^G|A2 ^GF EDCB,|A,8|]"
+            },
+            {
+                "key": "Emin",
+                "name": "E Harmonic Minor",
+                "concert_pitch": "D Minor",
+                "notation": "E2 FG ABc^d|e2 ^dc BAGF|E8|]"
+            },
+            {
+                "key": "Bmin",
+                "name": "B Harmonic Minor",
+                "concert_pitch": "A Minor",
+                "notation": "B,2 CD EFG^A|B2 ^AG FEDC|B,8|]]"
+            },
+            {
+                "key": "F#min",
+                "name": "F# Harmonic Minor",
+                "concert_pitch": "E Minor",
+                "notation": "F2 GA Bcd^e|f2 ^ed cBAG|F8|]"
+            },
+            {
+                "key": "C#min",
+                "name": "C# Harmonic Minor",
+                "concert_pitch": "B Minor",
+                "notation": "C2 DE FGA^B|c2 ^BA GFED|C8|]"
+            },
+            {
+                "key": "G#min",
+                "name": "G# Harmonic Minor",
+                "concert_pitch": "F# Minor",
+                "notation": "G2 AB cde^^f|g2 ^^fe dcBA|G8|]"
+            },
+            {
+                "key": "Dmin",
+                "name": "D Harmonic Minor",
+                "concert_pitch": "C Minor",
+                "notation": "D2 EF GAB^c|d2 ^cB AGFE|D8|]"
+            },
+            {
+                "key": "Gmin",
+                "name": "G Harmonic Minor",
+                "concert_pitch": "F Minor",
+                "notation": "G2 AB cde^f|g2 ^fe dcBA|G8|]"
+            },
+            {
+                "key": "Cmin",
+                "name": "C Harmonic Minor",
+                "concert_pitch": "Bb Minor",
+                "notation": "C2 DE FGA=B|c2 =BA GFED|C8|]"
+            },
+            {
+                "key": "Fmin",
+                "name": "F Harmonic Minor",
+                "concert_pitch": "Eb Minor",
+                "notation": "F2 GA Bcd=e|f2 =ed cBAG|F8|]"
+            },
+            {
+                "key": "Bbmin",
+                "name": "Bb Harmonic Minor",
+                "concert_pitch": "Ab Minor",
+                "notation": "B,2 CD EFG=A|B2 =AG FEDC|B,8|]]"
+            },
+            {
+                "key": "Ebmin",
+                "name": "Eb Harmonic Minor",
+                "concert_pitch": "Db Minor",
+                "notation": "E2 FG ABc=d|e2 =dc BAGF|E8|]"
+            }
+        ],
+        "melodic_minor": [
+            {
+                "key": "Amin",
+                "name": "A Melodic Minor",
+                "concert_pitch": "G Minor",
+                "notation": "A,2 B,C DE^F^G|A2 =G=F EDCB,|A,8|]"
+            },
+            {
+                "key": "Emin",
+                "name": "E Melodic Minor",
+                "concert_pitch": "D Minor",
+                "notation": "E2 FG AB^c^d|e2 =d=c BAGF|E8|]"
+            },
+            {
+                "key": "Bmin",
+                "name": "B Melodic Minor",
+                "concert_pitch": "A Minor",
+                "notation": "B,2 CD EF^G^A|B2 =A=G FEDC|B,8|]]"
+            },
+            {
+                "key": "F#min",
+                "name": "F# Melodic Minor",
+                "concert_pitch": "E Minor",
+                "notation": "F2 GA Bc^d^e|f2 =e=d cBAG|F8|]"
+            },
+            {
+                "key": "C#min",
+                "name": "C# Melodic Minor",
+                "concert_pitch": "B Minor",
+                "notation": "C2 DE FG^A^B|c2 =B=A GFED|C8|]"
+            },
+            {
+                "key": "G#min",
+                "name": "G# Melodic Minor",
+                "concert_pitch": "F# Minor",
+                "notation": "G2 AB cd^e^^f|g2 ^f=e dcBA|G8|]"
+            },
+            {
+                "key": "Dmin",
+                "name": "D Melodic Minor",
+                "concert_pitch": "C Minor",
+                "notation": "D2 EF GA=B^c|d2 =c_B AGFE|D8|]"
+            },
+            {
+                "key": "Gmin",
+                "name": "G Melodic Minor",
+                "concert_pitch": "F Minor",
+                "notation": "G2 AB cd=e^f|g2 =f_e dcBA|G8|]"
+            },
+            {
+                "key": "Cmin",
+                "name": "C Melodic Minor",
+                "concert_pitch": "Bb Minor",
+                "notation": "C2 DE FG=A=B|c2 _B_A GFED|C8|]"
+            },
+            {
+                "key": "Fmin",
+                "name": "F Melodic Minor",
+                "concert_pitch": "Eb Minor",
+                "notation": "F2 GA Bc=d=e|f2 _e_d cBAG|F8|]"
+            },
+            {
+                "key": "Bbmin",
+                "name": "Bb Melodic Minor",
+                "concert_pitch": "Ab Minor",
+                "notation": "B,2 CD EF=G=A|B2 _A_G FEDC|B,8|]]"
+            },
+            {
+                "key": "Ebmin",
+                "name": "Eb Melodic Minor",
+                "concert_pitch": "Db Minor",
+                "notation": "E2 FG AB=c=d|e2 _d_c BAGF|E8|]"
+            }
+        ]
+    }
+}
