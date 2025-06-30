@@ -425,6 +425,8 @@ function randomLongTone() {
 // ===== INITIAL SET-UP =====
 
 async function initialSetup() {
+    loadMusicData("https://jeffkitson-music.github.io/cnd/scales_and_long_tones.json");
+    
     if (checkURLForSavedGame()) {
         Swal.fire({
             title: "Welcome back!",
@@ -903,6 +905,6 @@ function decodeBase64UrlParamToObject(urlSafeBase64) {
 }
 
 // ===== LOAD FUNCTIONS  =====
-loadMusicData("https://jeffkitson-music.github.io/cnd/scales_and_long_tones.json");
+//loadMusicData("https://jeffkitson-music.github.io/cnd/scales_and_long_tones.json");
 //initialSetup(); // wait for DOM instead
 
