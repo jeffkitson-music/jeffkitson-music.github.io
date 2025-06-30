@@ -60,7 +60,7 @@ function rollDice() {
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: "Do Damage!",
-        denyButtonText: `Player Health`,
+        denyButtonText: `Player Damage`,
         iconHtml: '<img src="https://media.tenor.com/WiTP5aZyPLUAAAAi/dice-roll-dice.gif" width=50px>', // was "success" // Credit: https://tenor.com/view/dice-roll-dice-roll-the-dice-cube-game-gif-6495545147822062773
         iconColor: "#8CC63E",
         confirmButtonColor: "#8CC63E" // #333333
