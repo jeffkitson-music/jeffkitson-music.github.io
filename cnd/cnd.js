@@ -904,5 +904,5 @@ function decodeBase64UrlParamToObject(urlSafeBase64) {
 
 // ===== LOAD FUNCTIONS  =====
 loadMusicData("https://jeffkitson-music.github.io/cnd/scales_and_long_tones.json");
-initialSetup();
+//initialSetup(); // wait for DOM instead
 
