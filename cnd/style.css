@@ -1,0 +1,304 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Apply Cinzel to the main game title (h1) and subheadings (h2) */
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+.text-lg{
+    font-family: "Josefin Sans", sans-serif !important;
+}
+.text-gray-300{
+     font-family: "Josefin Sans", sans-serif !important;
+}
+
+.text-2xl {
+    font-family: "Josefin Sans", sans-serif !important;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 9999px; /* Tailwind's rounded-full equivalent */
+    overflow: hidden; /* Ensures the inner bar stays within rounded corners */
+    background-color: #333333; /* Dark gray from new palette for track */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inner shadow */
+
+    /* Define the custom property here */
+    --progress-fill-color: #8cc63e; /* Default bright green for the filled part */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #333333; /* Dark gray - this is the *track* color for WebKit */
+    border-radius: 9999px;
+}
+
+progress::-webkit-progress-value {
+    /* Use the custom property for the fill color */
+    background-color: var(--progress-fill-color);
+    border-radius: 9999px;
+    transition: width 0.5s ease-in-out;
+}
+
+progress::-moz-progress-bar {
+    /* Use the custom property for the fill color (Firefox's progress-bar is the fill) */
+    background-color: var(--progress-fill-color);
+    border-radius: 9999px;
+    transition: width 0.5s ease-in-out;
+}
+
+        body {
+            font-family: 'Josefin Sans', sans-serif; /* Default font */
+        }
+        h1, h2 {
+            font-family: 'Cinzel', serif; /* Special font for headers */
+        }
+
+        /* Custom styling for the music section checkboxes to ensure independent visual state */
+        input[type="checkbox"].scale-type-checkbox:checked + label {
+            background-color: #8B5CF6; /* Tailwind purple-600 */
+            color: #FFFFFF; /* Tailwind text-white */
+            font-weight: 700; /* Tailwind font-bold */
+            /* Simulating Tailwind ring and drop-shadow with direct box-shadow */
+            box-shadow:
+                0 0 0 4px #D8B4FE, /* Ring: 4px purple-300 */
+                0 0 0 6px #333333, /* Offset: 2px gray-800, simulating ring-offset */
+                0 10px 15px -3px rgba(0, 0, 0, 0.1), /* drop-shadow-lg part 1 */
+                0 4px 6px -2px rgba(0, 0, 0, 0.05); /* drop-shadow-lg part 2 */
+        }
+
+/* Custom SweetAlert2 Styles to match Clarinets and Dragons theme */
+.swal2-popup {
+    background-color: #1f2937 !important; /* Tailwind gray-800 to match main container */
+    color: #f3f4f6 !important; /* Tailwind gray-100 for text color */
+    border-radius: 0.75rem !important; /* Rounded corners for the popup */
+    /* Consistent shadow with other major elements (shadow-2xl equivalent) */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+    font-family: 'Josefin Sans', sans-serif !important; /* Match overall body font */
+}
+
+.swal2-title {
+    color: #f3f4f6 !important; /* White title text */
+    font-family: 'Cinzel', serif !important; /* Match header font */
+    font-weight: 700 !important;
+}
+
+.swal2-html-container {
+    color: #d1d5db !important; /* Tailwind gray-300 for message text */
+}
+
+.swal2-actions {
+    margin-top: 1.5rem !important; /* Spacing above buttons */
+}
+
+.swal2-confirm {
+    background-color: #8cc63e !important; /* Confirm button from your palette */
+    color: #000000 !important; /* Changed to dark font (black) */
+    border: none !important;
+    border-radius: 9999px !important; /* Rounded-full */
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    /* Match button hover effects from HTML */
+    transition: all 0.3s ease-in-out !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; /* shadow-lg */
+}
+
+.swal2-confirm:hover {
+    background-color: #79ac35 !important; /* Slightly darker green on hover */
+    transform: scale(1.05) !important; /* Scale effect on hover */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.08) !important; /* Deeper shadow on hover */
+}
+
+.swal2-cancel {
+    background-color: #4a5568 !important; /* Tailwind gray-700 for cancel button */
+    color: #000000 !important; /* Changed to dark font (black) */
+    border: none !important;
+    border-radius: 9999px !important; /* Rounded-full */
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    /* Match button hover effects from HTML */
+    transition: all 0.3s ease-in-out !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; /* shadow-lg */
+}
+
+.swal2-cancel:hover {
+    background-color: #2d3748 !important; /* Even darker gray on hover */
+    transform: scale(1.05) !important; /* Scale effect on hover */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.08) !important; /* Deeper shadow on hover */
+}
+
+.swal2-deny {
+    background-color: #ef4444 !important; /* Red for deny button */
+    color: #000000 !important; /* Dark font (black) */
+    border: none !important;
+    border-radius: 9999px !important; /* Rounded-full */
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    transition: all 0.3s ease-in-out !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important; /* shadow-lg */
+}
+
+.swal2-deny:hover {
+    background-color: #dc2626 !important; /* Slightly darker red on hover */
+    transform: scale(1.05) !important; /* Scale effect on hover */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.08) !important; /* Deeper shadow on hover */
+}
+
+/* Ensure icons are visible and match the palette */
+.swal2-icon {
+    color: #8cc63e !important; /* Use the green for info/question icons */
+    border-color: #8cc63e !important;
+}
+
+/* Specific icon adjustments for better contrast/visibility */
+.swal2-success [class^=swal2-success-line][class$=long], .swal2-success [class^=swal2-success-line][class$=tip] {
+    background-color: #8cc63e !important; /* Green for success lines */
+}
+.swal2-error {
+    border-color: #ef4444 !important; /* Red for error icon border */
+}
+.swal2-error-line {
+    background-color: #ef4444 !important; /* Red for error lines */
+}
+
+
+/* In cnd6_style.css or another linked CSS file */
+
+.chromatic-chaos {
+    /* A dark, slightly ominous gradient */
+    background: linear-gradient(to bottom right, #2c0a3e, #4d0b5e, #2c0a3e) !important;
+    color: #e0e0e0 !important; /* Lighter text for contrast */
+    border: 2px solid #6a058d !important; /* A matching border */
+    box-shadow: 0 0 15px rgba(106, 5, 141, 0.7) !important; /* A glowing effect */
+}
+
+/* Optional: To make the backdrop even more thematic */
+.chromatic-chaos-backdrop {
+    background: rgba(0,0,0,0.85) !important; /* A darker, more opaque backdrop */
+}
+
+/* --- Symphony of Swiftness (ADJUSTED FOR MAX READABILITY) --- */
+.symphony-swiftness-popup {
+    /* Keeping the happy gradient, but focusing on text clarity */
+    background: linear-gradient(to bottom right, #5AC3E2, #75E6DA, #A8EDC7) !important;
+    border: 2px solid #4CAF50 !important;
+    box-shadow: 0 0 20px rgba(116, 227, 189, 0.8) !important;
+}
+
+/* This is the crucial part: Directly target the SweetAlert2 title element */
+.swal2-title.symphony-swiftness-title {
+    color: #000000 !important; /* Explicitly black for maximum contrast */
+    text-shadow: none !important; /* Remove any lingering white text shadow */
+}
+
+/* This is also crucial: Directly target the SweetAlert2 HTML content container */
+.swal2-html-container.symphony-swiftness-content {
+    color: #333333 !important; /* Dark gray for readability of the main text */
+}
+
+.symphony-swiftness-backdrop {
+    background: rgba(117, 230, 218, 0.3) !important;
+}
+
+.swal2-confirm.symphony-swiftness-confirm-button {
+    background-color: #4CAF50 !important;
+    color: white !important; /* White text on this green button should be fine */
+    border: 1px solid #388E3C !important;
+    font-weight: bold !important;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.5) !important;
+}
+
+/* Style for labels */
+label {
+    display: block; /* Make labels take up their own line */
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold;
+    color: #8CC63E;
+}
+
+/* Style for number input fields */
+input[type="number"]{
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Space after each input field */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+input[type="number"]:focus {
+    border-color: #8CC63E; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #333; /* Subtle shadow on focus */
+}
+
+/* Remove default spin buttons for a cleaner look (optional, but common) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+/* Styling for the select dropdown menu */
+.swal2-html-container select,
+.swal2-select {
+    width: calc(100% - 20px); /* Full width minus padding, matches inputs */
+    padding: 10px;
+    margin-bottom: 20px; /* Space after each input field, matches inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Matches inputs */
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s ease; /* Smooth transition for focus effect, matches inputs */
+
+    /* --- Customizing the native dropdown appearance --- */
+    -webkit-appearance: none; /* Remove default arrow for Webkit browsers (Chrome, Safari) */
+    -moz-appearance: none;    /* Remove default arrow for Firefox */
+    appearance: none;         /* Standard property to remove default arrow */
+
+    /* Custom arrow using a background image (SVG for scalability) */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23555" d="M7.646 11.854a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8 10.293 4.854 7.646a.5.5 0 0 0-.708.708l3.5 3.5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Position the arrow */
+    background-size: 16px 16px; /* Size the arrow */
+    padding-right: 30px; /* Add padding on the right to prevent text from overlapping the arrow */
+
+    /* Ensure cursor is a pointer when hovering over the select */
+    cursor: pointer;
+}
+
+/* Focus styles for the select dropdown */
+select:focus {
+    border-color: #8CC63E; /* Highlight border on focus, matches inputs */
+    outline: none; /* Remove default outline, matches inputs */
+    box-shadow: 0 0 5px #333; /* Subtle shadow on focus, matches inputs */
+}
+
+/* More specific focus for keyboard navigation (preferred) */
+select:focus-visible {
+    border-color: #8CC63E; /* Highlight border on focus, matches inputs */
+    outline: none; /* Remove default outline, matches inputs */
+    box-shadow: 0 0 5px #333; /* Subtle shadow on focus, matches inputs */
+}
+
+/* Fallback for older browsers that don't support :focus-visible */
+@supports not selector(:focus-visible) {
+    select:focus {
+        border-color: #8CC63E;
+        outline: none;
+        box-shadow: 0 0 5px #333;
+    }
+}
