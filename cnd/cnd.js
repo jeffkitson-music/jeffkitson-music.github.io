@@ -19,7 +19,7 @@
 
 // GLOBAL
 const progressBarBaseText = {
-    "trials-progress": "Trials Progress",
+    "trials-progress": "Trial Progress",
     "player-health": "Player Health",
     "adventure-progress": "Adventure Progress"
 };
