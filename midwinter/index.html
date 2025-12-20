@@ -77,7 +77,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-90 filter drop-shadow-[0_0_12px_rgba(255,255,255,0.4)]"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
             </div>
             <h1 class="text-4xl md:text-5xl font-light text-[#e8eef2] mb-4 tracking-wider">
-                While Darkness Decreases
+               Midwinter
             </h1>
             <div class="w-24 h-px bg-gradient-to-r from-transparent via-red-800 to-transparent mx-auto mb-6"></div>
             <p class="text-[#8e99a7] text-lg max-w-2xl mx-auto italic leading-relaxed">
@@ -293,9 +293,9 @@
             };
         }
 
-        function encryptWishes(gatheredData){
+        function encryptWishes(gatheredData){ // for TRANSPORT
           // Final bulk encryption of the list
-          const encryptedWishes = pygasc.encrypt(gatheredData.wishes, gatheredData.key, "midwinter", "aes");
+          const encryptedWishes = pygasc.encrypt(gatheredData.wishes, "0x61bc1e346eebd9cff1f15779c4627b0dfb365f11dd9e3203c5e7c9dd2be55c23", "midwinter", "aes");
           document.getElementById("encrypted-wishes").innerText = encryptedWishes;
           return encryptedWishes;
         }
