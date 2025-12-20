@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Darkness Decreases</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://jeffkitson-music.github.io/js/pygasc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" xintegrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fernet@0.4.0/fernetBrowser.min.js"></script>
+    <script>
+        var pygasc = new PYGASC()
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Libre Baskerville', serif;
+            background-color: #05080a;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.2); }
+        }
+
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hearth-button {
+            transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .hearth-button:hover:not(:disabled) {
+            box-shadow: 0 0 50px rgba(185, 28, 28, 0.2);
+        }
+
+        .seal-button {
+            transition: all 0.3s ease;
+        }
+
+        input::placeholder {
+            color: #3e4a57;
+            font-style: italic;
+        }
+
+        /* Custom scrollbar to match the dark theme */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #05080a; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #b91c1c; }
+    </style>
+</head>
+<body class="text-[#d4dce5] selection:bg-red-900/40">
+
+    <!-- Starry Background Layer -->
+    <div id="star-container" class="fixed inset-0 pointer-events-none z-0"></div>
+
+    <!-- Atmosphere Layers -->
+    <div class="fixed inset-0 pointer-events-none z-0">
+        <!-- Top Shadow -->
+        <div class="absolute top-0 right-0 w-full h-[60vh] bg-gradient-to-b from-[#0a1412] to-transparent opacity-70"></div>
+        <!-- Bottom Evergreen Shadow -->
+        <div class="absolute bottom-0 left-0 w-full h-[40vh] bg-gradient-to-t from-[#040d08] to-transparent opacity-90"></div>
+        <!-- Subtle Winter Glow -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-red-900/5 blur-[160px] rounded-full"></div>
+    </div>
+
+    <div class="relative z-10 min-h-screen">
+        <!-- Header -->
+        <header class="pt-24 pb-16 px-4 text-center">
+            <div class="flex justify-center mb-6">
+                <!-- Moon icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-90 filter drop-shadow-[0_0_12px_rgba(255,255,255,0.4)]"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-light text-[#e8eef2] mb-4 tracking-wider">
+                While Darkness Decreases
+            </h1>
+            <div class="w-24 h-px bg-gradient-to-r from-transparent via-red-800 to-transparent mx-auto mb-6"></div>
+            <p class="text-[#8e99a7] text-lg max-w-2xl mx-auto italic leading-relaxed">
+                The shortest day has passed. Set your thirteen intentions for the returning light.
+            </p>
+        </header>
+
+        <main class="max-w-3xl mx-auto px-6 pb-32">
+
+            <!-- Sealing Key Box Section - MOVED TO TOP FOR ACCESS -->
+            <div class="mb-24 pb-12 border-b border-red-900/20">
+                <div class="max-w-xl mx-auto bg-[#0a120f]/60 backdrop-blur-md rounded-3xl border border-red-900/20 p-12 text-center transition-all hover:border-red-900/40 shadow-2xl">
+                    <div class="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-950/30 border border-red-900/30 text-2xl drop-shadow-lg">🗝️</div>
+                    <h2 class="text-2xl font-light text-red-50/80 mb-3 tracking-wide italic">Sealing key</h2>
+                    <p class="text-sm text-[#707c8a] mb-8 leading-relaxed italic">Enter your key sealing key.</p>
+                    <div class="relative group">
+                        <input type="text" id="sealing-key" placeholder="Your secret key"
+                            class="w-full bg-[#05080a]/50 border-b border-red-900/40 py-4 px-6 text-center text-[#e8eef2] outline-none focus:border-red-700 transition-all text-2xl tracking-[0.2em] rounded-t-lg group-hover:bg-[#05080a]/80">
+                        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-px bg-red-600 transition-all duration-700 group-focus-within:w-full"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Intention Grid -->
+            <div id="intention-grid" class="space-y-12">
+                <!-- Categories injected here -->
+            </div>
+
+            <!-- The Hearth Button -->
+            <div class="mt-20 flex flex-col items-center">
+                <button id="manifest-btn" class="hearth-button relative flex items-center gap-4 px-16 py-5 rounded-full font-light text-xl tracking-[0.2em] bg-[#0f1c18] text-red-50 border border-red-900/30 hover:bg-[#142620] hover:border-red-700/50 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:scale-110 transition-transform"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                    <span>Final Seal</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:rotate-12 transition-transform"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                </button>
+                <p class="mt-6 text-[#4a5568] text-xs tracking-widest uppercase">Thirteen wishes for the new year</p>
+            </div>
+
+            <!-- Ritual Instructions -->
+            <div class="mt-32 border-t border-red-900/20 pt-16 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4a5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-6"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-0.5-5"/><path d="M6.5 17.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5H20V17.5z"/></svg>
+                <h3 class="text-[#4a5568] uppercase tracking-[0.4em] text-[10px] font-bold mb-8">
+                    The Ritual
+                </h3>
+                <div class="text-[#8e99a7] leading-loose max-w-xl mx-auto italic text-lg">
+                    "Write thirteen wishes for the coming year. On each of the twelve sacred nights of winter, one slip of paper is committed to the flames, unseen and unread, offered to the mystery of the universe. On the final morning, the thirteenth wish remains—the one that you shall fulfill with your own hands."
+                </div>
+            </div>
+
+            <!-- Keeper Section -->
+            <div class="mt-20">
+                <div class="bg-[#0b1218]/80 backdrop-blur-sm rounded-2xl border border-red-900/10 p-10 text-center relative">
+                    <div class="flex justify-center mb-6 text-red-800 opacity-20">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                    </div>
+                    <h3 class="text-[#4a5568] font-light text-xs uppercase tracking-[0.3em] mb-4">
+                        The Keeper of Intentions
+                    </h3>
+                    <div id="keeper-status" class="text-sm">
+                        <div id="keeper-idle" class="block">
+                            <p class="text-[#3e4a57] italic">Seal each wish individually then use the final seal.</p>
+                        </div>
+
+                        <div id="keeper-sealed" class="hidden">
+                            <div class="text-red-100/80 italic space-y-6 animate-in fade-in duration-1000">
+                                <p class="text-xl">Your wishes are sealed.</p>
+
+                                <div class="relative group mt-6 bg-black/40 p-6 rounded-xl border border-red-900/10 overflow-hidden">
+                                    <div id="encrypted-wishes" class="text-[10px] font-mono text-[#4a5568] break-all text-left leading-relaxed select-all">
+                                        ...
+                                    </div>
+                                    <div class="mt-4 flex justify-end">
+                                        <button id="copy-btn" class="text-[10px] uppercase tracking-widest text-red-700/60 hover:text-red-500 transition-colors flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                                            Copy Encrypted Text
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- UI Feedback Toast -->
+    <div id="toast" class="fixed bottom-8 left-1/2 -translate-x-1/2 px-6 py-3 bg-red-950/80 border border-red-500/30 text-red-100 text-xs tracking-widest uppercase rounded-full opacity-0 pointer-events-none transition-all duration-500 z-50">
+        Sealing Key Required
+    </div>
+
+    <script>
+        const categories = [
+            { id: 'vitality', title: 'Vitality', icon: '🌿', focus: 'Your physical health, strength, and the breath within your body.' },
+            { id: 'abundance', title: 'Abundance', icon: '🌾', focus: 'The flow of resources and the stability of your harvest.' },
+            { id: 'sanctuary', title: 'Sanctuary', icon: '🏡', focus: 'Your home environment, comfort, and your sacred physical nest.' },
+            { id: 'vocation', title: 'Vocation', icon: '🕯️', focus: 'Your true calling and the work that sets your soul on fire.' },
+            { id: 'kindred', title: 'Kindred', icon: '🌑', focus: 'Your family, ancestors, and the roots that hold you steady.' },
+            { id: 'intimacy', title: 'Intimacy', icon: '❤️', focus: 'Deep connection, romantic love, and the relationship with your inner self.' },
+            { id: 'community', title: 'Community', icon: '🤝', focus: 'Your circle of friends and your sense of belonging in the world.' },
+            { id: 'wisdom', title: 'Wisdom', icon: '📜', focus: 'The expansion of your mind and the gathering of new knowledge.' },
+            { id: 'play', title: 'Play', icon: '❄️', focus: 'The joy of creation, laughter, and the light of pure delight.' },
+            { id: 'resilience', title: 'Resilience', icon: '🌲', focus: 'Your ability to stand tall through the winter storms of life.' },
+            { id: 'intuition', title: 'Intuition', icon: '✨', focus: 'Your connection to the quiet whispers of the unseen world.' },
+            { id: 'legacy', title: 'Legacy', icon: '🌟', focus: 'The light you leave behind and the seeds you plant for others.' },
+            { id: 'freedom', title: 'Freedom', icon: '🦅', focus: 'The release of old weights and the flight toward new horizons.' }
+        ];
+
+        // Star Generation
+        const starContainer = document.getElementById('star-container');
+        for (let i = 0; i < 90; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            const size = Math.random() * 2.5;
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.top = `${Math.random() * 100}%`;
+            star.style.left = `${Math.random() * 100}%`;
+            star.style.animation = `twinkle ${2 + Math.random() * 5}s infinite ease-in-out`;
+            star.style.animationDelay = `${Math.random() * 5}s`;
+            starContainer.appendChild(star);
+        }
+
+        const sealingKey = document.getElementById('sealing-key');
+        const toast = document.getElementById('toast');
+
+        function showToast(message) {
+            toast.innerText = message;
+            toast.classList.remove('opacity-0');
+            setTimeout(() => toast.classList.add('opacity-0'), 3000);
+        }
+
+        /**
+         * Individual wish sealing logic
+         */
+        window.sealIndividualWish = (catId) => {
+            const key = sealingKey.value.trim();
+            if (!key) {
+                showToast("Sealing Key Required");
+                sealingKey.focus();
+                return;
+            }
+
+            const input = document.querySelector(`input[data-category="${catId}"]`);
+            const wishText = input.value.trim();
+
+            if (!wishText) {
+                showToast("The paper is blank");
+                return;
+            }
+
+            // If already encrypted (starts with fernet common headers or specifically checked)
+            if (input.dataset.sealed === "true") return;
+
+            try {
+                const encrypted = pygasc.encrypt(wishText, key, "midwinter", "aes");
+                input.value = encrypted;
+                input.readOnly = true;
+                input.dataset.sealed = "true";
+                input.classList.add('text-[8px]', 'font-mono', 'text-red-500/50', 'opacity-60');
+
+                const btn = document.querySelector(`button[data-seal-for="${catId}"]`);
+                btn.innerHTML = 'Sealed';
+                btn.disabled = true;
+                btn.classList.add('opacity-30');
+            } catch (e) {
+                showToast("Ritual Error: Encryption Failed");
+            }
+        };
+
+        // Grid Generation
+        const grid = document.getElementById('intention-grid');
+        categories.forEach(cat => {
+            const item = document.createElement('div');
+            item.className = 'group relative flex flex-col items-center text-center';
+            item.innerHTML = `
+                <div class="mb-4 text-3xl opacity-90 drop-shadow-lg grayscale-[0.2]">${cat.icon}</div>
+                <h2 class="text-2xl font-light text-red-50/80 mb-2 tracking-wide">${cat.title}</h2>
+                <p class="text-sm text-[#707c8a] mb-6 max-w-md leading-relaxed italic">${cat.focus}</p>
+                <div class="w-full flex flex-col md:flex-row items-center gap-4 max-w-lg">
+                    <input type="text" data-category="${cat.id}" placeholder="Write your wish here..."
+                        class="wish-input flex-1 bg-transparent border-b border-red-900/20 py-3 text-center text-[#e8eef2] outline-none focus:border-red-800 transition-colors text-lg">
+                    <button data-seal-for="${cat.id}" onclick="sealIndividualWish('${cat.id}')"
+                        class="seal-button px-4 py-1 text-[10px] uppercase tracking-widest border border-red-900/30 text-red-700/60 hover:text-red-400 hover:border-red-700 rounded-full">
+                        Seal Wish
+                    </button>
+                </div>
+            `;
+            grid.appendChild(item);
+        });
+
+        function gatherWishes() {
+            const key = sealingKey.value;
+            const wishInputs = document.querySelectorAll('.wish-input');
+            const wishStrings = [];
+
+            wishInputs.forEach(input => {
+                const categoryId = input.getAttribute('data-category');
+                const wishValue = input.value.trim();
+                if (wishValue) {
+                    // Check if already sealed individually
+                    if (input.dataset.sealed === "true") {
+                        wishStrings.push(wishValue);
+                    } else {
+                        wishStrings.push(wishValue);
+                    }
+                }
+            });
+
+            return {
+                "key": key,
+                "wishes": wishStrings.join('\n')
+            };
+        }
+
+        function encryptWishes(gatheredData){
+          // Final bulk encryption of the list
+          const encryptedWishes = pygasc.encrypt(gatheredData.wishes, gatheredData.key, "midwinter", "aes");
+          document.getElementById("encrypted-wishes").innerText = encryptedWishes;
+          return encryptedWishes;
+        }
+
+        // Final Button Logic
+        const btn = document.getElementById('manifest-btn');
+        const idleStatus = document.getElementById('keeper-idle');
+        const sealedStatus = document.getElementById('keeper-sealed');
+        const copyBtn = document.getElementById('copy-btn');
+        const encryptedTextDiv = document.getElementById('encrypted-wishes');
+
+        btn.addEventListener('click', () => {
+            const key = sealingKey.value.trim();
+            if (!key) {
+                showToast("Key Required for Final Manifestation");
+                sealingKey.focus();
+                return;
+            }
+
+            btn.disabled = true;
+            btn.classList.add('opacity-50', 'cursor-wait');
+            btn.querySelector('span').innerText = 'Gathering Intentions...';
+
+            const gatheredData = gatherWishes();
+            encryptWishes(gatheredData);
+
+            sealingKey.type = 'password';
+            sealingKey.disabled = true;
+            sealingKey.classList.add('opacity-70');
+
+            setTimeout(() => {
+                btn.classList.remove('opacity-50', 'cursor-wait');
+                btn.querySelector('span').innerText = 'Sealed';
+                btn.classList.add('bg-red-900/20', 'border-red-600');
+
+                idleStatus.classList.add('hidden');
+                sealedStatus.classList.remove('hidden');
+            }, 1500);
+        });
+
+        copyBtn.addEventListener('click', () => {
+            const textToCopy = encryptedTextDiv.innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = textToCopy;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            try {
+                document.execCommand('copy');
+                const originalText = copyBtn.innerHTML;
+                copyBtn.innerText = 'Copied to Clipboard';
+                setTimeout(() => {
+                    copyBtn.innerHTML = originalText;
+                }, 2000);
+            } catch (err) {}
+            document.body.removeChild(tempTextArea);
+        });
+    </script>
+</body>
+</html>
