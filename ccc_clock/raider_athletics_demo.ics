@@ -1,9 +1,10 @@
 BEGIN:VCALENDAR
+X-WR-CALNAME:Raider Athletics
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Hastings College vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -14,7 +15,7 @@ UID:mrhk21klh5idndyd@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Northeast Iowa Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -25,7 +26,7 @@ UID:8r418wzittojx1ab@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Hawkeye Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -36,7 +37,7 @@ UID:8pdmcze6x5tz5rri@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Siouxland Invite Day 2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -47,7 +48,7 @@ UID:kbi87pwhixaklaiv@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Ellsworth Community College\, 217 Georgetown Rd\, Iowa Falls\, IA 50126
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -58,7 +59,7 @@ UID:yno8fsxyssshjm70@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Northeast Community College\, Norfolk\, Neb.
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -69,7 +70,7 @@ UID:ky9oehhmr13bbk2s@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Iowa Central Community College vs. Central Community College\, Raider Fieldhouse | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -80,7 +81,7 @@ UID:2ej7ygfno58x4068@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Calhoun Community College\, SSBU
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -91,7 +92,7 @@ UID:kw8oi7ygj1r1pkzg@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Highland Community College - Kansas vs. Central Community College\, Final\, 76-71
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -102,7 +103,7 @@ UID:uhs7et8e5axo6wnr@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Ellsworth Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -114,7 +115,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251011
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Iowa Lakes Duel
 LOCATION:Estherville\, IA 
 SUMMARY:🎯 SGS Iowa Lakes Duel
@@ -123,7 +124,7 @@ UID:pjo60zz600s2purn@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at North Iowa Area Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -134,7 +135,7 @@ UID:m9lw2v5zxd38az6k@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Iowa Western Community College\, Final\, 75-91
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -145,7 +146,7 @@ UID:n3tl8zdknrzk1sb6@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Concordia University JV vs. Central Community College\, Final\, 59-114
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -156,7 +157,7 @@ UID:ab7h1uyut8mpox1i@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Iowa Central Community College vs. Central Community College\, Raider Field | Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -167,7 +168,7 @@ UID:ta6uv9b5rg12cprc@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Morningside JV\, Sioux City\, IA (Expo Center) 
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -179,7 +180,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250921
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Warrior Invite Day 2
 LOCATION:Lincoln Trap and skeet
 SUMMARY:🎯 SGS Warrior Invite Day 2
@@ -188,7 +189,7 @@ UID:21rwkf0i5kkosp7z@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Hawkeye Community College\, Hudson Softball Complex- Pirate Rd.\, Hudson\, IA 50643
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -199,7 +200,7 @@ UID:x7fe1qu2fjkv5joj@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Doane University JV vs. Central Community College\, Final\, 100-69
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -210,7 +211,7 @@ UID:cpv8wq5j28467ur5@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  North Iowa Area Community College vs. Central Community College\, Final\, 72-81
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -221,7 +222,7 @@ UID:ytjx99e464r62l4r@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  North Iowa Area Community College vs. Central Community College\, Final\, 58-109
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -232,7 +233,7 @@ UID:8zq4s1tuygfitnye@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Highland Community College - Kansas vs. Central Community College\, Final\, 2-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -243,7 +244,7 @@ UID:sr87kchdylj79bfj@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Briar Cliff (IA)\, Riverside Park 1001 Riverside Blvd\, Sioux City\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -255,7 +256,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251005
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Hastings Invite Day 2
 LOCATION:Heartland Public Shooting Park\, Grand Island (NE)
 SUMMARY:🎯 SGS Hastings Invite Day 2
@@ -264,7 +265,7 @@ UID:bwe2recw8kj9fief@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Nebraska Intercollegiate Day 2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -275,7 +276,7 @@ UID:saoz33n2zimy8l1j@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Iowa Central Community College\, Harlan Rogers Sports Complex | Fort Dodge\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -286,7 +287,7 @@ UID:hm7okxjsaj2aj5mo@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Northeast Iowa Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -297,7 +298,7 @@ UID:kht71gsufxrcmd6u@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Cloud County Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -308,7 +309,7 @@ UID:elnudmt7q1i9ycu7@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at North Iowa Area Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -319,7 +320,7 @@ UID:lvxslhtcc1k7qdw7@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College-Columbus at College of St. Mary
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -330,7 +331,7 @@ UID:8czz21nobuyfwynf@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at University of Nebraska at Kearney\, Dryden Park (601 E 31st Street)
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -342,7 +343,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260303
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College-Columbus at Region 11A-B Championship
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 MBB CCC-Columbus at Region 11A-B Championship
@@ -351,7 +352,7 @@ UID:gvic6af836bsav7b@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Doane University vs. Central Community College-Columbus\, Raider Field | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -362,7 +363,7 @@ UID:59xjn5iejpqok0gz@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Des Moines Area Community College\, Boone\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -374,7 +375,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260228
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College-Columbus at Region 11A-B Semifinal
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 MBB CCC-Columbus at Region 11A-B Semifinal
@@ -383,7 +384,7 @@ UID:4xcvjgjue6tc6zr9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Western Iowa Tech vs. Central Community College\, Game suspended due equipment issues. \, Final\, 52-83
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -394,7 +395,7 @@ UID:yowypzyd05ma50b9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Iowa Central Community College\, Hodges Fieldhouse | Fort Dodge\, IA\, Final\, 52-71
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -405,7 +406,7 @@ UID:fw3kt5fpz1tf26s6@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Northeast Community College vs. Central Community College\, Columbus\, Neb.\, Final\, 0-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -416,7 +417,7 @@ UID:a2s8pgxim27775kd@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  North Iowa Area Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -427,7 +428,7 @@ UID:oi8p2rc9h8cp9sgf@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College vs. Marshalltown CC\, Final\, 85-70
 DURATION:PT3H
 LOCATION:Fort Dodge\, IA
@@ -439,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251018
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: ICCAC Conference Championship Day 2
 LOCATION:New Pioneer Gun Club in Waukee\, IA
 SUMMARY:🎯 SGS ICCAC Conference Championship Day 2
@@ -448,7 +449,7 @@ UID:t4id97p4dsaov5w0@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Kirkwood Community College\, 6301 Kirkwood Blvd SW\, Cedar Rapids\, IA 52404
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -459,7 +460,7 @@ UID:xbetps61wmvznrbd@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Southeastern Community College\, Loren Walker Arena | West Burlington\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -470,7 +471,7 @@ UID:f16ua14hwp8kap7g@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Northeast Community College vs. Central Community College\, Columbus\, Neb.\, Final\, 74-103
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -481,7 +482,7 @@ UID:36zcol6ps8iqg3u5@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Kirkwood Community College\, Johnson Hall l Cedar Rapids\, IA\, Final\, 38-72
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -492,7 +493,7 @@ UID:xu697rt5g11b2mws@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at North Iowa Area Community College\, 500 College Dr. Mason City\, IA 50401
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -503,7 +504,7 @@ UID:lxo2ltppb46henf6@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Northeast Community College\, Norfolk\, Neb. | Ta-Ha-Zouka Park
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -514,7 +515,7 @@ UID:wklxythvm01dy3a9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  York Invite Day 1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -525,7 +526,7 @@ UID:ihj8r3u4ik6icfdh@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  York University vs. Central Community College-Columbus\, Raider Field | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -536,7 +537,7 @@ UID:iip29ojmtti2njyv@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Dakota County Technical College\, Final\, 7-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -547,7 +548,7 @@ UID:icfc9oezsdizql1o@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Kirkwood Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -558,7 +559,7 @@ UID:ci2k0zfaongugioi@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at North Iowa Area Community College\, At Mason City\, Iowa\, Final\, 1-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -569,7 +570,7 @@ UID:kq4ayiqir8749gn6@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Northeast Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -580,7 +581,7 @@ UID:o5m0wmcbflv20r1q@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Northwest Iowa Community College\, Final\, 4-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -591,7 +592,7 @@ UID:y20cappo0m5rtoss@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Southwestern Community College vs. Central Community College\, Final\, 69-54
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -602,7 +603,7 @@ UID:zeomlwh2m6xy63gb@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Des Moines Area Community College\, Boone\, IA\, Final\, 67-98
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -613,7 +614,7 @@ UID:ovjt7f7k4tg8x0gc@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Johnson County Community College\, Final\, 2-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -624,7 +625,7 @@ UID:ihuvjhol8npac978@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Garden City Community College vs. Central Community College\, Raider Soccer Complex | Columbus\, NE\, Final\, 0-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -635,7 +636,7 @@ UID:wkv1xmz3r512h9zh@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  CCC Alumni vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -646,7 +647,7 @@ UID:p159dahvljgt72at@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Southeastern Community College vs. Central Community College\, Final\, 2-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -657,7 +658,7 @@ UID:f5f7ypl8vvc0zo6x@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Iowa Lakes Community College vs. Central Community College\, Columbus\, NE\, Final\, 74-84
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -668,7 +669,7 @@ UID:dnk6gxe8i8pepgpf@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Metropolitan Community College vs. Central Community College\, Final\, 1-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -680,7 +681,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250930
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Northwest Arkansas Community College\, Rocket League 3v3\, Final\, 2-3
 LOCATION:Raider Fieldhouse
 SUMMARY:🎮 ESports CCC at Northwest Arkansas Community College
@@ -689,7 +690,7 @@ UID:86kygwy7l19ojrhy@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Highland Community College - Kansas\, Final\, 90-85
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -700,7 +701,7 @@ UID:vez9opgcpvjvnc7y@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Mount Marty University JV vs. Central Community College\, Final\, 105-57
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -712,7 +713,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251017
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: ICCAC Conference Championship Day 1
 LOCATION:Stockdales - Ackley\, Iowa
 SUMMARY:🎯 SGS ICCAC Conference Championship Day 1
@@ -721,7 +722,7 @@ UID:5kmetmyb1x6iympb@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Iowa Western Community College\, Reiver Arena | Council Bluffs\, IA\, Final\, 66-88
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -732,7 +733,7 @@ UID:khktrwutdxdoomib@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Ellsworth Community College\, Dittmer Gym | Iowa Falls\, Iowa \, Final\, 79-89
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -743,7 +744,7 @@ UID:wo8dk9u70y3hajl1@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Iowa Central Community College vs. Central Community College\, Raider Fieldhouse | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -754,7 +755,7 @@ UID:k15l6okehbm1ecjz@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Northeast Community College\, Norfolk\, Neb. | Ta-Ha-Zouka Park
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -765,7 +766,7 @@ UID:yh0lpgv57xhkiq71@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Mount Marty University vs. Central Community College-Columbus\, Raider Field | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -776,7 +777,7 @@ UID:8rl5pjo0v14j6pg5@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Morningside University\, Riverside Park 1001 Riverside Blvd\, Sioux City\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -787,7 +788,7 @@ UID:k4mmb5j6mywk46uf@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  St. Louis Community College vs. Central Community College\, Final\, 0-3
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -798,7 +799,7 @@ UID:oy33yprujhpnhjmq@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Iowa Lakes Community College\, 300 S 18th St\, Estherville\, IA 51334
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -809,7 +810,7 @@ UID:gelcwhf887ka64i1@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College vs. Central Lakes College-Brainerd\, Final\, 90-50
 DURATION:PT3H
 LOCATION:Fort Dodge\, IA
@@ -820,7 +821,7 @@ UID:fbw37s6wrq6egd5v@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Northwest Iowa Community College\, Final\, 6-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -831,7 +832,7 @@ UID:v2tln0cc77dyz8b0@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Ellsworth Community College\, 217 Georgetown Rd\, Iowa Falls\, IA 50126
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -842,7 +843,7 @@ UID:hft5rprqsgkcg19z@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at York College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -853,7 +854,7 @@ UID:zms3v3aaj6kvf0rq@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Siouxland Invite Day 1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -864,7 +865,7 @@ UID:p3duu3th2bezcl9p@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Kansas City Kansas Community College\, Kansas City Kansas Community College - Kansas City\, KS\, Final\, 0-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -875,7 +876,7 @@ UID:p262v9gnrra0bb4u@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Iowa Lakes Community College\, 300 S 18th St\, Estherville\, IA 51334
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -886,7 +887,7 @@ UID:qe3lwi5f3artl88a@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Iowa Central Community College\, Harlan Rogers Sports Complex | Fort Dodge\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -898,7 +899,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260307
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College-Columbus at District Championship
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 WBB CCC-Columbus at District Championship
@@ -907,7 +908,7 @@ UID:lv68ygbm51almmtv@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Hawkeye Community College vs. Central Community College\, Columbus\, NE\, Final\, 0-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -918,7 +919,7 @@ UID:9m6xf6flunjoz17w@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Des Moines Area Community College vs. Central Community College\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -929,7 +930,7 @@ UID:ebekoo7prxvd4gff@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Highland Community College - Kansas vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -940,7 +941,7 @@ UID:2m4yre1ffesyjtf7@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Western Iowa Tech vs. Central Community College-Columbus\, Region 11 Tournament | Second Round\, Final\, 3-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -951,7 +952,7 @@ UID:9bmcyxvcufnbetkn@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Nebraska Intercollegiate Day 1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -962,7 +963,7 @@ UID:jhin8ms7f506wuhy@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Northeast Iowa Community College\, Super Smash Bros. Ultimate\, Final\, 3-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -973,7 +974,7 @@ UID:ryhsz3eryc0cxq5p@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at University of Nebraska at Kearney\, Dryden Park (601 E 31st Street)
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -984,7 +985,7 @@ UID:hxaju0aiw7kgjmwg@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Kirkwood Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -996,7 +997,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250906
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Fort Hays Day 1
 LOCATION:Raider Fieldhouse
 SUMMARY:🎯 SGS Fort Hays Day 1
@@ -1006,7 +1007,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251017
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College-Columbus at Kansas City Jamboree
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 MBB CCC-Columbus at Kansas City Jamboree
@@ -1015,7 +1016,7 @@ UID:hf9ym5pfuu3hkod0@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Iowa Western Community College\, Wiebe Complex | Council Bluffs\, IA\, Final\, 2-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1026,7 +1027,7 @@ UID:igymf9tqk3q292n3@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Southwestern Community College\, Southwestern Student Center - Creston\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1037,7 +1038,7 @@ UID:ajfvtg4uty67n6gl@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Erie Community College vs. Central Community College
 DURATION:PT3H
 LOCATION:The Spring Games
@@ -1048,7 +1049,7 @@ UID:vtx9q0df7iouc09u@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Kirkwood Community College\, Final\, 68-67
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1059,7 +1060,7 @@ UID:9t6aspdxgdjg7wg9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Iowa Central Community College\, Iowa Central Campus Turf Field | Fort Dodge\, IA\, Final\, 2-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1070,7 +1071,7 @@ UID:t78ohbnbi0uso84s@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Ranger College vs. Central Community College\, Warzone
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1081,7 +1082,7 @@ UID:6ffkg9vks94o0qci@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Mount Marty University\, Sertoma Park- E 19th street\, Ferdig St Yankton\, SD
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1092,7 +1093,7 @@ UID:k837pp0zkug7kfzk@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Kishwaukee College\, Call of Duty Warzone \, Final\, 3-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1103,7 +1104,7 @@ UID:ccoxttoy7bjpswk8@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College-Columbus at College of St. Mary
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1114,7 +1115,7 @@ UID:twxca1xf3pmu4imt@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Kirkwood Community College vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1126,7 +1127,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251004
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Hastings Invite Day 1
 LOCATION:Heartland Public Shooting Park\, Grand Island (NE)
 SUMMARY:🎯 SGS Hastings Invite Day 1
@@ -1136,7 +1137,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250907
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Fort Hays Day 2
 LOCATION:Raider Fieldhouse
 SUMMARY:🎯 SGS Fort Hays Day 2
@@ -1145,7 +1146,7 @@ UID:49fhsdzrof82w1d6@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  College of St. Mary JV vs. Central Community College\, Final\, 2-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1156,7 +1157,7 @@ UID:3sltqyssc1g941sb@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Kirkwood Community College vs. Central Community College\, Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1167,7 +1168,7 @@ UID:pz73xc14qcm0atmu@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  York University JV vs. Central Community College\, Final\, 107-45
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1178,7 +1179,7 @@ UID:ah14w6l9tmbnyda9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College-Columbus at York College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1189,7 +1190,7 @@ UID:1m8p1s6toxx8kz6q@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College vs. Metropolitan Community College\, Final\, 67-71
 DURATION:PT3H
 LOCATION:Fort Dodge\, IA
@@ -1200,7 +1201,7 @@ UID:dbiri0xnu8dmouyk@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Midland University\, Heedum Field | Fremont\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1211,7 +1212,7 @@ UID:fs1pfkbpibvfuq76@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Doane University
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1222,7 +1223,7 @@ UID:1olintf8nwbdephs@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Northeast Community College\, Cox Activities Center | Norfolk\, Neb.
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1233,7 +1234,7 @@ UID:8k0fany8jal2zbd4@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Kirkwood Community College\, 6301 Kirkwood Blvd SW\, Cedar Rapids\, IA 52404
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1244,7 +1245,7 @@ UID:nvqh9z6gvwmg0pk8@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Iowa Central Community College vs. Central Community College\, Raider Field | Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1255,7 +1256,7 @@ UID:0b9vrit24mgcxu52@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Iowa Lakes Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1266,7 +1267,7 @@ UID:pjz4mn7hvhvidrww@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Northeast Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 3-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1277,7 +1278,7 @@ UID:wjqpm2ukmw7hohkx@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Iowa Lakes Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 0-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1288,7 +1289,7 @@ UID:8y38jiadz2ngl63q@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Patrick & Henry Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 4-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1299,7 +1300,7 @@ UID:qwlrej7pjursk4b9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Des Moines Area Community College\, Boone\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1310,7 +1311,7 @@ UID:0x7put6ff7zj2e2e@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Doane University
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1321,7 +1322,7 @@ UID:fz93qxbm61h4rqkr@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Hawkeye Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 5-4
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1333,7 +1334,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251025
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Bobcat Invite Day 1
 LOCATION: Lincoln Trap and Skeet
 SUMMARY:🎯 SGS Bobcat Invite Day 1
@@ -1342,7 +1343,7 @@ UID:xudyavdvgqfin4fr@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Johnson County Community College\, Final\, 61-92
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1353,7 +1354,7 @@ UID:9pza4u654b17snqv@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Southwestern Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1364,7 +1365,7 @@ UID:djwg3v6dmwa90dux@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College vs. Dakota College at Bottineau\, Final\, 64-54
 DURATION:PT3H
 LOCATION:Wahpeton\, ND
@@ -1375,7 +1376,7 @@ UID:03oej9nq8qwto1y5@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Carl Sandburg College vs. Central Community College\, Rocket League\, Final\, 3-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1386,7 +1387,7 @@ UID:zy65dqrpso848ca7@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Northeast Community College vs. Central Community College\, Columbus\, Neb.\, Final\, 64-76
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1397,7 +1398,7 @@ UID:ooy9dzuj07j54y4s@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Blue River Classic Day 1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1408,7 +1409,7 @@ UID:mwsteys5eobedv6u@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Marshalltown CC\, Final\, 4-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1419,7 +1420,7 @@ UID:qjcjsa5jo4aw52l2@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Southeastern Community College vs. Central Community College\, Raider Field House | Columbus\, NE\, Final\, 71-80
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1430,7 +1431,7 @@ UID:jm45mh10xw25r568@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Marshalltown CC vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1441,7 +1442,7 @@ UID:elragozxguxlcvw9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Des Moines Area Community College\, Boone\, IA\, Final\, 43-87
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1452,7 +1453,7 @@ UID:aca9k8184adqxamz@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Mount Marty University JV\, Final\, 0-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1463,7 +1464,7 @@ UID:0w5y01hyi8eutwqh@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Des Moines Area Community College vs. Central Community College\,  Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1474,7 +1475,7 @@ UID:zm8k27segnp5v1bu@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Iowa Lakes Community College\, Laker Gym | Estherville\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1485,7 +1486,7 @@ UID:oissyyy74di4s3oj@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Ellsworth Community College vs. Central Community College\, Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1496,7 +1497,7 @@ UID:ra619tzqmzwsyj18@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Des Moines Area Community College vs. Central Community College\, Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1507,7 +1508,7 @@ UID:mf0tuc7vjbbh26s3@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Iowa Western Community College vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1518,7 +1519,7 @@ UID:m27x3ob55minod5v@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  North Iowa Area Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1529,7 +1530,7 @@ UID:cmuon8tf1ur0s9rw@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Morningside JV\, Sioux City\, IA (Expo Center) 
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1541,7 +1542,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250927
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Iowa Central Duel
 LOCATION:Fort Dodge\, IA
 SUMMARY:🎯 SGS Iowa Central Duel
@@ -1550,7 +1551,7 @@ UID:d2ulvn5vts2oqnza@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Western Iowa Tech\, Final\, 2-4
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1561,7 +1562,7 @@ UID:j0apmml06nbpwhgz@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Midland University JV vs. Central Community College\, Final\, 71-68
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1572,7 +1573,7 @@ UID:gevdaswuur4iyf4n@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Neosho County Community College\, Final\, 1-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1583,7 +1584,7 @@ UID:crl3lyo6cq5ld4z1@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Des Moines Area Community College vs. Central Community College\, Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1594,7 +1595,7 @@ UID:xdz1ud5juykdy4vx@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Hastings College JV vs. Central Community College\, Scrimmage
 DURATION:PT3H
 LOCATION:Columbus\, NE
@@ -1605,7 +1606,7 @@ UID:bbrvkwibyikz5f7i@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Southeastern Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 0-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1616,7 +1617,7 @@ UID:pjr35cz711j0poqj@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Kansas City Kansas Community College\, Kansas City Kansas Community College | Kansas City\, KS\, Final\, 0-3
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1627,7 +1628,7 @@ UID:qbvb69jd9krqy38t@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at North Dakota State College of Science\, Final\, 68-92
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1638,7 +1639,7 @@ UID:ntk4woqm1c187g4d@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Northeast Iowa Community College\, Farley Park- End of 5th Ave. NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1649,7 +1650,7 @@ UID:a0ps1419oy9vyvrx@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Hawkeye Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1660,7 +1661,7 @@ UID:7oxmm87oxhb9ocmf@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Hastings College JV\, Final\, 2-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1671,7 +1672,7 @@ UID:ymydax5on8y0an43@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at St. Louis Community College\, Final\, 0-3
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1683,7 +1684,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250920
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Warrior Invite Day 1
 LOCATION:Lincoln Trap and skeetï¿½
 SUMMARY:🎯 SGS Warrior Invite Day 1
@@ -1692,7 +1693,7 @@ UID:63au13dj4zse1z7i@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Cloud County Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1703,7 +1704,7 @@ UID:movz8l2nsttliwwy@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Ellsworth Community College\, Dittmer Gym / Iowa Falls\, Iowa\, Final\, 51-67
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1714,7 +1715,7 @@ UID:dt987vjrmxso1q8e@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at North Iowa Area Community College\, Final\, 1-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1725,7 +1726,7 @@ UID:87r651saufbiukwq@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Iowa Lakes Community College vs. Central Community College\, Final\, 86-72
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1736,7 +1737,7 @@ UID:76wk2deikr7yz6uu@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Northeastern Junior College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 5-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1747,7 +1748,7 @@ UID:w1446p2x1fmzwfh0@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  Blue River Classic Day 2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1758,7 +1759,7 @@ UID:qh1slutce7m5aemw@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at North Iowa Area Community College\, 500 College Dr. Mason City\, IA 50401
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1769,7 +1770,7 @@ UID:7bczlfkd5ds26212@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Northeast Iowa Community College\, Farley Park- End of 5th Ave. NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1780,7 +1781,7 @@ UID:dbolpram80na08j8@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Hawkeye Community College\, Hudson Softball Complex- Pirate Rd.\, Hudson\, IA 50643
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1791,7 +1792,7 @@ UID:pivd28854zcr5lg9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Dakota County Technical College\, Final\, 5-4
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1803,7 +1804,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250918
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Ellsworth Duel
 LOCATION:Heartland Public Shooting Park\, Grand Island (NE)
 SUMMARY:🎯 SGS Ellsworth Duel
@@ -1812,7 +1813,7 @@ UID:fs2qqa8v2fdvk59t@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Jefferson College\, Wiebe Complex | Council Bluffs\, IA\, Final\, 0-1
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1824,7 +1825,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260228
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College-Columbus at Region 11 Semifinals
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 WBB CCC-Columbus at Region 11 Semifinals
@@ -1833,8 +1834,8 @@ UID:5zelw6tfiaqj5htr@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
-DESCRIPTION:Women's Basketball:  Central Community College at Marshalltown CC
+DTSTAMP:20260117T183943Z
+DESCRIPTION:Women's Basketball:  Central Community College at Marshalltown CC\, Start of 1st
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
 DTSTART:20260117T190000Z
@@ -1845,7 +1846,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260302
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College-Columbus at Region 11 Championship
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 WBB CCC-Columbus at Region 11 Championship
@@ -1854,7 +1855,7 @@ UID:ae0uj6l625hg4hg4@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Concordia University vs. Central Community College-Columbus\, Raider Field | Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1866,7 +1867,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251026
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: Bobcat Invite Day 2
 LOCATION: Lincoln Trap and Skeet
 SUMMARY:🎯 SGS Bobcat Invite Day 2
@@ -1875,7 +1876,7 @@ UID:ftsow8v6ia9xcth2@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College vs. North Central Missouri College\, Final\, 83-92
 DURATION:PT3H
 LOCATION:Fort Dodge\, IA
@@ -1886,7 +1887,7 @@ UID:ipevxg120ohg1wex@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Western Iowa Tech
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1897,7 +1898,7 @@ UID:txajbxbudrshtrb5@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Southwestern Community College vs. Central Community College\, Final\, 88-59
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1908,7 +1909,7 @@ UID:i2y0skbg8aos4tk7@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Concordia University JV vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1919,7 +1920,7 @@ UID:3owsde1pkak7tciq@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  York College JV vs. Central Community College\, Final\, 75-56
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1930,7 +1931,7 @@ UID:mjv8w1a408qhx0ao@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Southeastern Community College\, Region 11 Semi-Finals\, Final\, 0-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1941,7 +1942,7 @@ UID:d719l469trv0lkm9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Concordia University JV vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1952,7 +1953,7 @@ UID:9ncjzzcog0sornqw@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Kishwaukee College\, Super Smas Ultimate\, Final\, 1-3
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1963,7 +1964,7 @@ UID:1zg47h8dv9n0s4ew@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College at Iowa Central Community College\, Hodges Fieldhouse | Fort Dodge\, IA\, Final\, 65-96
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1974,7 +1975,7 @@ UID:oe7ky3x3gvija0xn@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Golf
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Golf:  York Invite Day 2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -1986,7 +1987,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251005
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Central Community College-Columbus at ICCAC Jamboree
 LOCATION:Raider Fieldhouse
 SUMMARY:🏀 MBB CCC-Columbus at ICCAC Jamboree
@@ -1995,7 +1996,7 @@ UID:t2c0kimu0bcyyntt@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Metropolitan Community College vs. Central Community College-Columbus\, Raider Field | Columbus\, NE\, Final\, 6-0
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2006,7 +2007,7 @@ UID:pi64g5x3m90iwb73@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Iowa Lakes Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2017,7 +2018,7 @@ UID:26mg7tg2hetfx9hv@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Johnson County Community College vs. Central Community College\, Final\, 76-91
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2028,7 +2029,7 @@ UID:r6z7l95tb1ghs4e4@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Northeast Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2039,7 +2040,7 @@ UID:6y3rz3xe9nmjlzhn@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:eSports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION:eSports:  Central Community College at Kishwaukee College\, Smash Bros Ultimate\, Final\, 1-3
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2050,7 +2051,7 @@ UID:kv7qr3acx7np1m5f@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Central Community College at Iowa Central Community College\, Iowa Central Campus Turf Field | Fort Dodge\, IA\, Final\, 0-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2061,7 +2062,7 @@ UID:wp87v5demjprvwl9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Highland Community College - Kansas vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2072,7 +2073,7 @@ UID:cr3ywa4nkqkvxk94@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Ellsworth Community College vs. Central Community College\, 4500 63rd Street\, Columbus NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2083,7 +2084,7 @@ UID:iggijhcigx7fpuc9@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Mount Marty University JV vs. Central Community College\, Final\, 74-109
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2094,7 +2095,7 @@ UID:eghit5z8jans8vih@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Soccer
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Women's Soccer:  Iowa Lakes Community College vs. Central Community College\, Final\, 0-5
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2105,7 +2106,7 @@ UID:fhlmau3f58id8w0i@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College vs. Johnson County Community College\, Final\, 61-99
 DURATION:PT3H
 LOCATION:Highland\, KS
@@ -2116,7 +2117,7 @@ UID:vaf1k9nim0d5c3as@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Central Community College at Iowa Lakes Community College\, Estherville\, IA
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2127,7 +2128,7 @@ UID:hky7exweg1ygz7xi@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Central Community College at Mount Marty University\, Sertoma Park- E 19th street\, Ferdig St Yankton\, SD
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2138,7 +2139,7 @@ UID:kesnulvc3tos09qw@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Soccer
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Men's Soccer:  Central Community College-Columbus at Western Iowa Tech\, Final\, 5-2
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2149,7 +2150,7 @@ UID:tp4trwcqhq5cw5d3@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Ellsworth Community College vs. Central Community College
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2160,7 +2161,7 @@ UID:oh9nu9x1x5ivcpll@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Women's Basketball
-DTSTAMP:20260117T181307Z
+DTSTAMP:20260117T183943Z
 DESCRIPTION:Women's Basketball:  Iowa Western Community College vs. Central Community College\, Columbus\, NE
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2171,7 +2172,7 @@ UID:g50e8xnsvuxsnflp@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Softball
-DTSTAMP:20260117T181308Z
+DTSTAMP:20260117T183944Z
 DESCRIPTION:Softball:  Rochester Community and Technical College vs. Central Community College\, Field C Diamond Plex
 DURATION:PT3H
 LOCATION:Field C
@@ -2182,7 +2183,7 @@ UID:9k5iwgsd3lfvv23f@prestosports.com
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:Men's Basketball
-DTSTAMP:20260117T181306Z
+DTSTAMP:20260117T183942Z
 DESCRIPTION:Men's Basketball:  Midland University vs. Central Community College\, CLOSED SCRIMMAGE (Closed to the public)
 DURATION:PT3H
 LOCATION:Raider Fieldhouse
@@ -2194,7 +2195,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251019
 CATEGORIES:Shotgun Sports
-DTSTAMP:20260117T181309Z
+DTSTAMP:20260117T183946Z
 DESCRIPTION: ICCAC Conference Championship Day 3
 LOCATION:New Pioneer Gun Clubï¿½in Waukee\, IA
 SUMMARY:🎯 SGS ICCAC Conference Championship Day 3
