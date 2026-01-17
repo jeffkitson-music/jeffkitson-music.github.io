@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Clock - Academic Calendar</title>
+    <!-- Google Fonts: Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #006747;
+            --secondary: #333F48;
+            --accent-gray: #BEC6C4;
+            --accent-lime: #CEDC00;
+            --accent-red: #F03A47;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: var(--secondary);
+            font-family: 'Lato', sans-serif;
+        }
+
+        .bg-primary { background-color: var(--primary); }
+        .text-primary { color: var(--primary); }
+        .bg-secondary { background-color: var(--secondary); }
+        .border-primary { border-color: var(--primary); }
+        
+        .header-card {
+            background: white;
+            border-top: 4px solid var(--primary);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        .calendar-table th {
+            background-color: var(--secondary);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.875rem;
+        }
+
+        .calendar-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--accent-gray);
+            background: white;
+        }
+
+        .calendar-table tr:hover td {
+            background-color: #f1f5f9;
+        }
+
+        .calendar-table tr td:first-child {
+            font-weight: 700;
+            color: var(--primary);
+            border-left: 1px solid var(--accent-gray);
+        }
+
+        .calendar-table tr td:last-child {
+            border-right: 1px solid var(--accent-gray);
+        }
+
+        .event-tag {
+            border-left: 4px solid var(--accent-lime);
+            background: white;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .status-dot {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- Header Section -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-black mb-6 tracking-tight flex items-center">
+                <span class="bg-primary text-white px-3 py-1 rounded mr-3">THE</span> CLOCK
+            </h1>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="header-card p-4 rounded-lg">
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Academic Year</p>
+                    <p class="text-xl font-bold">2024-2025</p>
+                </div>
+                <div class="header-card p-4 rounded-lg">
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Semester</p>
+                    <p class="text-xl font-bold">Spring 2025</p>
+                </div>
+                <div class="header-card p-4 rounded-lg">
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Current Week</p>
+                    <p class="text-xl font-bold flex items-center">
+                        Week 03 <span class="ml-2 status-dot bg-[#CEDC00]"></span>
+                    </p>
+                </div>
+                <div class="header-card p-4 rounded-lg">
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Athletic Year</p>
+                    <p class="text-xl font-bold">Season 48</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Middle Section: Academic Table -->
+        <section class="mb-12 overflow-hidden rounded-xl border border-gray-200 shadow-lg">
+            <div class="bg-white p-4 border-b border-gray-100">
+                <h2 class="text-lg font-bold flex items-center">
+                    <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    Master Schedule
+                </h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="calendar-table">
+                    <thead>
+                        <tr>
+                            <th class="w-24">Week</th>
+                            <th>Fall</th>
+                            <th>Spring</th>
+                            <th>Summer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Week 1</td><td>Aug 26, 2024</td><td>Jan 13, 2025</td><td>May 19, 2025</td></tr>
+                        <tr><td>Week 2</td><td>Sep 02, 2024</td><td>Jan 20, 2025</td><td>May 26, 2025</td></tr>
+                        <tr class="bg-lime-50/30"><td>Week 3</td><td class="font-bold">Sep 09, 2024</td><td class="font-bold">Jan 27, 2025</td><td class="font-bold">Jun 02, 2025</td></tr>
+                        <tr><td>Week 4</td><td>Sep 16, 2024</td><td>Feb 03, 2025</td><td>Jun 09, 2025</td></tr>
+                        <tr><td>Week 5</td><td>Sep 23, 2024</td><td>Feb 10, 2025</td><td>Jun 16, 2025</td></tr>
+                        <tr><td>Week 6</td><td>Sep 30, 2024</td><td>Feb 17, 2025</td><td>Jun 23, 2025</td></tr>
+                        <tr><td>Week 7</td><td>Oct 07, 2024</td><td>Feb 24, 2025</td><td>Jun 30, 2025</td></tr>
+                        <tr><td>Week 8</td><td>Oct 14, 2024</td><td>Mar 03, 2025</td><td>Jul 07, 2025</td></tr>
+                        <tr><td>Week 9</td><td>Oct 21, 2024</td><td>Mar 10, 2025</td><td>Jul 14, 2025</td></tr>
+                        <tr><td>Week 10</td><td>Oct 28, 2024</td><td>Mar 17, 2025</td><td>Jul 21, 2025</td></tr>
+                        <tr><td>Week 11</td><td>Nov 04, 2024</td><td>Mar 24, 2025</td><td>Jul 28, 2025</td></tr>
+                        <tr><td>Week 12</td><td>Nov 11, 2024</td><td>Mar 31, 2025</td><td>Aug 04, 2025</td></tr>
+                        <tr><td>Week 13</td><td>Nov 18, 2024</td><td>Apr 07, 2025</td><td>Aug 11, 2025</td></tr>
+                        <tr><td>Week 14</td><td>Nov 25, 2024</td><td>Apr 14, 2025</td><td>Aug 18, 2025</td></tr>
+                        <tr><td>Week 15</td><td>Dec 02, 2024</td><td>Apr 21, 2025</td><td>Aug 25, 2025</td></tr>
+                        <tr><td>Week 16</td><td>Dec 09, 2024</td><td>Apr 28, 2025</td><td>Sep 01, 2025</td></tr>
+                        <tr><td>Week 17</td><td>Dec 16, 2024</td><td>May 05, 2025</td><td>Sep 08, 2025</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Final Section: Events -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4 flex items-center">
+                <span class="w-2 h-8 bg-primary mr-3 rounded"></span>
+                Upcoming Events
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="event-tag">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-bold text-primary uppercase tracking-wide">Deadline</p>
+                            <h3 class="font-bold">Last Day for Add/Drop</h3>
+                        </div>
+                        <span class="text-sm font-medium text-gray-400">Jan 31</span>
+                    </div>
+                </div>
+                <div class="event-tag" style="border-left-color: var(--accent-red);">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-bold text-[#F03A47] uppercase tracking-wide">Holiday</p>
+                            <h3 class="font-bold">President's Day (No Classes)</h3>
+                        </div>
+                        <span class="text-sm font-medium text-gray-400">Feb 17</span>
+                    </div>
+                </div>
+                <div class="event-tag" style="border-left-color: var(--secondary);">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-bold text-gray-500 uppercase tracking-wide">Athletics</p>
+                            <h3 class="font-bold">Homecoming Basketball Game</h3>
+                        </div>
+                        <span class="text-sm font-medium text-gray-400">Feb 21</span>
+                    </div>
+                </div>
+                <div class="event-tag">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-bold text-primary uppercase tracking-wide">Academic</p>
+                            <h3 class="font-bold">Midterm Grading Opens</h3>
+                        </div>
+                        <span class="text-sm font-medium text-gray-400">Mar 03</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-16 pt-8 border-t border-gray-200 text-center text-sm text-gray-400 pb-12">
+            &copy; 2024 Institutional Academic Affairs. Updated Weekly.
+        </footer>
+    </div>
+
+</body>
+</html>
