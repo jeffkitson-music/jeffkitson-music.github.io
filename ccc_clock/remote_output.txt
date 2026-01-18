@@ -1,0 +1,2 @@
+This file was generated for the jeffkitson-music.github.io repo.
+Location: ccc_clock/remote_output.txt
