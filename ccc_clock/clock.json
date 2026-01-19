@@ -3,7 +3,7 @@
     "athletic_year": "2025-26",
     "semester": "Spring 2026",
     "season": "Spring",
-    "current_week": "Week 1",
+    "current_week": "Week 2",
     "calendar": {
         "fall": {
             "week1": "08/18/2025",
@@ -72,5 +72,5 @@
         "pp_m": "n/a",
         "humanities": "28958"
     },
-    "last_updated": "2026-01-18T18:47:43.835856"
+    "last_updated": "2026-01-19T06:51:10.454803"
 }
