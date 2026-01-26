@@ -3,8 +3,12 @@
     "athletic_year": "2025-26",
     "semester": "Spring 2026",
     "season": "Spring",
-    "current_week": "Week 2",
+    "current_week": "Week 3",
     "calendar": {
+        "ics": {
+            "iphone": "webcal://clock.cccsings.com/2025_2026.ics",
+            "android": "https://calendar.google.com/calendar/render?cid=https://clock.cccsings.com/2025_2026.ics"
+        },
         "fall": {
             "week1": "08/18/2025",
             "week2": "08/25/2025",
@@ -72,5 +76,5 @@
         "pp_m": "n/a",
         "humanities": "28958"
     },
-    "last_updated": "2026-01-19T06:51:10.454803"
+    "last_updated": "2026-01-26T06:50:32.737684"
 }
