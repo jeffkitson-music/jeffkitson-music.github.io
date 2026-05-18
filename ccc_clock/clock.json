@@ -1,9 +1,9 @@
 {
     "academic_year": "2025-2026",
     "athletic_year": "2025-26",
-    "semester": "Spring 2026",
-    "season": "Spring",
-    "current_week": "Week 18",
+    "semester": "Summer 2026",
+    "season": "Summer",
+    "current_week": "Week 0",
     "calendar": {
         "ics": {
             "iphone": "webcal://clock.cccsings.com/2025_2026.ics",
@@ -60,21 +60,6 @@
             "week10": "07/28/2026"
         }
     },
-    "canvas_courses": {
-        "intro_lecture": "30678",
-        "intro_web": "n/a",
-        "college_choir_i": "29079",
-        "college_choir_ii": "29080",
-        "spectrum_i": "29081",
-        "spectrum_ii": "29082",
-        "voice_i": "29084",
-        "voice_ii": "29085",
-        "theory_i": "n/a",
-        "theory_ii": "29083",
-        "theory_iii": "n/a",
-        "theory_iv": "n/a",
-        "pp_m": "n/a",
-        "humanities": "28958"
-    },
-    "last_updated": "2026-05-11T09:55:33.173747"
+    "canvas_courses": {},
+    "last_updated": "2026-05-18T10:20:05.364109"
 }
