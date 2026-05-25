@@ -3,7 +3,7 @@
     "athletic_year": "2025-26",
     "semester": "Summer 2026",
     "season": "Summer",
-    "current_week": "Week 0",
+    "current_week": "Week 1",
     "calendar": {
         "ics": {
             "iphone": "webcal://clock.cccsings.com/2025_2026.ics",
@@ -61,5 +61,5 @@
         }
     },
     "canvas_courses": {},
-    "last_updated": "2026-05-18T10:20:05.364109"
+    "last_updated": "2026-05-25T10:24:04.997220"
 }
