@@ -3,7 +3,7 @@
     "athletic_year": "2026-27",
     "semester": "Fall 2026",
     "season": "Fall",
-    "current_week": "Week 2",
+    "current_week": "Week 3",
     "webcal": "webcal://clock.cccsings.com/2026_2027.ics",
     "calendar": {
         "ics": {
@@ -82,5 +82,5 @@
         "pp_m": "n/a",
         "humanities": "32689"
     },
-    "last_updated": "2026-08-24T07:11:07.571675"
+    "last_updated": "2026-08-31T13:25:05.987735"
 }
